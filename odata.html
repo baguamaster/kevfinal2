@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>OPEN DATA SEARCH</title>
+	<link rel="shortcut icon" href="img/icon.jpg">
+	<!-- Preloaded Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- style CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- googlefonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Top Bar & Contact Link -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="col-12 text-right">
+				<p><a href="contact.html">FORTRESS ASIA</a></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- End of Top Bar -->
+
+
+	<!-- Nav Bar Styling & Hamburger -->
+	<nav class="navbar bg-light navbar-light navbar-expand-lg">
+		<div class="container">
+			<!--<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
+				alt="logo" title="logo"></a>-->
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="odata.html" class="nav-link">Open Data</a></li>
+					<li class="nav-item"><a href="ofiles.html" class="nav-link">Open Files</a></li>
+					<li class="nav-item"><a href="scred.html" class="nav-link">Unsecured Credentials</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+				</ul>
+			</div>
+
+
+		</div>
+
+
+	</nav>
+	<!-- End of Navigation -->
+
+
+
+
+	<!-- Main Page Heading -->
+	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+		<h1 class="text-dark pt-4">OSINT SEARCH TOOL: CERBERUS</h1>
+		<div class="border-top border-danger w-25 mx-auto my-3"></div>
+		<p class="lead">Search for unsecured files</p>
+	</div>
+
+
+
+
+
+
+	<br>
+	<!--search form-->
+	<div class="container">
+		<form id="form" autocomplete="off">
+			<div class="form-group">
+				<input type="text" id="searchfiles" class="form-control" placeholder="searchfiles">
+			</div>
+			<div class="form-group">
+				<button class="btb btn-danger-btn-block">Be precise in your search terms</button>
+			</div>
+		</form>
+
+		<!--displaying results-->
+		<div class="row">
+			<div id="result"></div>
+		</div>
+
+		<br>
+
+
+
+
+
+
+
+		
+
+		<!-- Start of Footer -->
+		<footer>
+			<div class="container">
+				<div class="row text-light text-center py-4 justify-content-center">
+
+					<div class="col-sm-10 col-md-8 col-lg-6">
+						<!--<img src="img/logo.jpg" alt="logo">-->
+						<p>Kev: LARGE disclaimer and warning on unauthorised hacking here</p>
+
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
+
+
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+		<script src="index.js"></script>
+		<!-- End of Script Source Files -->
+
+</body>
+
+</html>
