@@ -10,13 +10,13 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-    background: brown;
+    background: orange;
     height: 2.8rem;
     padding: 0.5rem 0;
 }
 
 .top-bar a {
-    color: white;
+    color: #454d55;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -50,79 +50,10 @@ body {
 }
 
 
-/*==CAROUSEL SLIDER!!!==*/
-
-#carousel {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.carousel-inner {
-    max-height: 38rem!important;
-}
-
-
-/*---Change Carousel Transition Speed --*/
-
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-    transition: transform 2.2s ease;
-}
-
-
-/*-- Carousel Content --*/
-
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-transform: uppercase;
-}
-
-.bg-custom {
-    background-color: rgba(0, 0, 0, 0.35);
-    color: white;
-    border-radius: 1rem;
-    justify-self: auto;
-}
-
-.carousel-caption h1 {
-    font-size: 4rem;
-    text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
-}
-
-.border-primary {
-    border-top: 0.2rem solid #4981b3!important;
-}
-
-.carousel-caption h3 {
-    font-size: 2rem;
-    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 1);
-}
-
-.btn-lg {
-    border-radius: 0;
-    text-transform: uppercase;
-    font-size: 1rem;
-    border-width: medium;
-}
-
-.btn-primary {
-    background-color: #4981b3;
-    border: .05rem solid #4981b3;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #68a0d2!important;
-    border: .05rem solid #68a0d2!important;
-}
-
-
 /*============= FOOTER =============*/
 
 footer {
-    background-color: #441111;
+    background-color: orange;
     padding: 1rem 2rem 3rem;
 }
 
@@ -134,7 +65,7 @@ footer img {
 footer p,
 footer a,
 .socket a {
-    color: white;
+    color: #454d55;
     text-decoration: none;
 }
 
@@ -158,13 +89,6 @@ footer .svg-inline--fa:hover {
     color: #d26876;
 }
 
-
-/*============= SOCKET =============*/
-
-.socket {
-    background-color: #1d1a1a;
-    border-top: .1rem solid #118fca;
-}
 
 
 /*============= MEDIA QUERIES (IMPORTED FROM ELSEWHERE, OF COURSE) =============*/

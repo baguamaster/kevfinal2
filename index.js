@@ -1,26 +1,39 @@
 $("#form").submit(function (e) {
-  e.preventDefault()
+    e.preventDefault()
 
-  var query = $("#search").val()
+    var query = $("#search").val()
 
-  var API_KEY = '91e67499c338b646b3590f73a5696583'
+    var API_KEY = '91e67499c338b646b3590f73a5696583'
 
-  var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + '&query=${query}'
-  console.log(url)
+    var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + '&query=${query}'
+    console.log(url)
 
 
-  $.get(url, function (data) {
+    $.get(url, function (data) {
 
-    $("#result").html('')
+        $("#result").html('')
 
-    console.log(data)
+        console.log(data)
 
-    data.organic_results.forEach(res => {
-      result = `
+        data.organic_results.forEach(res => {
+            result = `
       
       <h1>${res.title}</h1><br><a target="_blank href="${res.url}">${res.url}</a>
       <p>${res.snippet}</p>`
-      
-      $("#result").append(result)
 
-    });
+            $("#result").append(result)
+        })
+
+  });
+  
+})
+
+// $("#form").submit(function(){
+
+//      $.get(url, function(data){
+
+//      }) // end $.get
+
+// }); //  end submit
+
+

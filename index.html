@@ -1,14 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>OSINT TOOLS</title>
+	<link rel="shortcut icon" href="img/icon.jpg">
+	<!-- Preloaded Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- style CSS -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="style.css">
 	<!-- googlefonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
@@ -27,31 +30,23 @@
 	<!-- End of Top Bar -->
 
 
+	<!-- Nav Bar Styling & Hamburger -->
+	<nav class="navbar bg-light navbar-light navbar-expand-lg">
+		<div class="container">
+			<!--<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
+				alt="logo" title="logo"></a>-->
 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
 
-
-
-
-
-
-<!-- Nav Bar Styling & Hamburger -->
-<nav class="navbar bg-light navbar-light navbar-expand-lg">
-	<div class="container">
-		<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
-			alt="logo" title="logo"></a>
-		
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-			data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-
-		</button>	
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="ofiles.html" class="nav-link">Open Files</a></li>
 					<li class="nav-item"><a href="odata.html" class="nav-link">Open Data</a></li>
-					<li class="nav-item"><a href="scred.html" class="nav-link">Security Credentials</a></li>
+					<li class="nav-item"><a href="ofiles.html" class="nav-link">Open Files</a></li>
+					<li class="nav-item"><a href="scred.html" class="nav-link">Unsecured Credentials</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
 				</ul>
 			</div>
@@ -65,11 +60,12 @@
 
 
 
-<!-- Main Page Heading -->
-<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-		<h1 class="text-dark pt-4" >LEGAL OPEN SOURCED INTELLIGENCE TOOLS</h1>
-		<div class="border-top border-danger w-25 mx-auto my-3" ></div>
-		<h1 class="lead">O S I N T</h1>
+
+	<!-- Main Page Heading -->
+	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+		<h1 class="text-dark pt-4">OSINT SEARCH TOOLS</h1>
+		<div class="border-top border-danger w-25 mx-auto my-3"></div>
+		<p class="lead">OSINT : Open Sourced Intelligence</p>
 	</div>
 
 
@@ -77,80 +73,80 @@
 
 
 
-<!--search form-->
-<div class="container">
-<form id="form" autocomplete="off">
-  <div class="form-group">
-  <input type="text" id="search" class="form-control" placeholder="search">
-  </div>
-  <div class="form-group">
-    <button class="btb btn-danger-btn-block">Be precise in your search terms</button>
-  </div>
-  </form>
-
-<!--displaying results-->  
-<div id="result">
-</div>
-
-
-
-
-
-
-
-
-<br>
-<!-- Start JBT-->
-	<div class="jumbotron py-5 mb-0">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-                <h4>Cybersecurity | Vulnerability Assessment | Network Defence | Red Teaming | Audit | Policy</h4>
-            </div>
-            
-            <div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-                <a href="contact.html" class="btn btn-danger btn-lg">For Customised Solutions</a>
-            </div>
-
-        </div>
-    </div>
-</div>
-<!-- End of JBT -->
-
-
-
-
-
-
-  <!-- Start of Footer -->
-	<footer>
+	<br>
+	<!--search form-->
 	<div class="container">
-		<div class="row text-light text-center py-4 justify-content-center">
-
-			<div class="col-sm-10 col-md-8 col-lg-6">
-				<img src="img/logo.jpg" alt="add logo here!">
-				<p>put OSINT warning and disclaimer here!!!!</p>
-				<!--<ul class="social pt-2">
-					<li><a href="https://www.facebook.com/j" target="_blank"><i class="fab fa-facebook fa-4x"></i></a></li>
-					<li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-4x"></i></a></li>
-					<li><a href="https://twitter.com/i/t" target="_blank"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="https://www.instagram.com/j" target="_blank"><i class="fab fa-instagram"></i></a></li>
-					
-				</ul></-->
+		<form id="form" autocomplete="off">
+			<div class="form-group">
+				<input type="text" id="search" class="form-control" placeholder="search">
 			</div>
+			<div class="form-group">
+				<button class="btb btn-danger-btn-block">Be precise in your search terms</button>
+			</div>
+		</form>
 
+		<!--displaying results-->
+		<div class="row">
+			<div id="result"></div>
 		</div>
-	</div>
-	</footer>
-	<!-- End of Footer -->
 
-<!-- Script Source Files -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="index.js"></script>
-<!-- End of Script Source Files -->
+		<br>
+
+
+
+
+
+
+
+		<!-- Start JBT-->
+		<div class="jumbotron py-5 mb-0">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+						<h4>Cybersecurity | Audit | Forensics | Pentesting | SOCs | Policy</h4>
+					</div>
+
+					<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+						<a href="contact.html" class="btn btn-danger btn-lg">Customise your Security</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End of JBT -->
+
+		<!-- Start of Footer -->
+		<footer>
+			<div class="container">
+				<div class="row text-light text-center py-4 justify-content-center">
+
+					<div class="col-sm-10 col-md-8 col-lg-6">
+						<!--<img src="img/logo.jpg" alt="logo">-->
+						<p>Kev: LARGE disclaimer and warning on unauthorised hacking here</p>
+
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
+
+
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+		<!-- End of Script Source Files -->
+
 </body>
+
 </html>
