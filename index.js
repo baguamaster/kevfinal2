@@ -24,8 +24,8 @@ $("#form").submit(function (e) {
             $("#result").append(result)
         })
 
-  });
-  
+    });
+
 })
 
 // $("#form").submit(function(){
