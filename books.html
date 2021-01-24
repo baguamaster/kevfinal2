@@ -61,17 +61,18 @@
 				
 				<form action="/action_page.php">
 					<p>Please select your filetype</p>
+					<div class="row align-item-start" justify-content>
 					<input type="radio" id="rd1" name="filetype" value="pdf">
 					<label for="pdf">pdf</label><br>
 					<input type="radio" id="rd2" name="filetype" value="ppt">
 					<label for="ppt">ppt</label><br>
 					<input type="radio" id="rd3" name="filetype" value="xls">
 					<label for="xls">xls</label>
-
+					</div>
 					<br>
 			</div>
 			<div class="form-group">
-				<button onclick="warning" class="btb btn-danger-btn-block">Search for book title or subject</button>
+				<button onclick="showAlert()" class="btb btn-danger-btn-block">Search for book title or subject</button>
 
 			</div>
 		</form>
