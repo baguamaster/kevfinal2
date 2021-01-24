@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>LIBER-ATUS</title>
+	<title>LIBERATUS</title>
 	<link rel="shortcut icon" href="img/icon.jpg">
 	<!-- Preloaded Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,30 +21,30 @@
 	<div class="top-bar">
 		<div class="container">
 			<div class="col-12 text-right">
-				<p><a href="contact.html">LIBER-ATUS</a></p>
+				<p><a href="contact.html">LIBERATUS</a></p>
 			</div>
 		</div>
 	</div>
 	<!-- End of Top Bar -->
-<!-- Nav Bar Styling & Hamburger -->
-<nav class="navbar bg-light navbar-light navbar-expand-lg">
-	<div class="container">
-		<!--<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
+	<!-- Nav Bar Styling & Hamburger -->
+	<nav class="navbar bg-light navbar-light navbar-expand-lg">
+		<div class="container">
+			<!--<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
 			alt="logo" title="logo"></a>-->
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="books.html" class="nav-link">Find Books & Manuals</a></li>
-				<li class="nav-item"><a href="prezzo.html" class="nav-link">Find Presentations</a></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Subscribe to powerful tools</a></li>
-			</ul>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="books.html" class="nav-link">Find Books & Manuals</a></li>
+					<li class="nav-item"><a href="prezzo.html" class="nav-link">Find Presentations</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Subscribe to powerful tools</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
-</nav>
-<!-- End of Navigation -->
+	</nav>
+	<!-- End of Navigation -->
 
 	<!-- Main Page Heading -->
 	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
@@ -58,10 +58,21 @@
 		<form id="form" autocomplete="off">
 			<div class="form-group">
 				<input type="text" id="search" class="form-control" placeholder="search">
+				
+				<form action="/action_page.php">
+					<p>Please select your filetype</p>
+					<input type="radio" id="rd1" name="filetype" value="pdf">
+					<label for="pdf">pdf</label><br>
+					<input type="radio" id="rd2" name="filetype" value="ppt">
+					<label for="ppt">ppt</label><br>
+					<input type="radio" id="rd3" name="filetype" value="xls">
+					<label for="xls">xls</label>
+
+					<br>
 			</div>
 			<div class="form-group">
-				<button class="btb btn-danger-btn-block">Search for book title or subject</button>
-				
+				<button onclick="warning" class="btb btn-danger-btn-block">Search for book title or subject</button>
+
 			</div>
 		</form>
 		<!--displaying results-->
@@ -69,52 +80,52 @@
 			<div id="result"></div>
 		</div>
 		<br>
-		
 
-	<!-- Start JBT-->
-	<div class="jumbotron py-5 mb-0">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-					<h4>Books | Files | Presentations | Documents</h4>
-				</div>
-				<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-					<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End of JBT -->
-	<!-- Start of Footer -->
-	<footer>
-		<div class="container">
-			<div class="row text-light text-center py-4 justify-content-center">
-				<div class="col-sm-10 col-md-8 col-lg-6">
-					<!--<img src="img/logo.jpg" alt="logo">-->
-					<p>Warning:
-						LIBER-ATUS is not condoning piracy. Download free books that are free. If you come
-						across a book that you know costs money, don't download it. Some books are indeed free, and
-						Amazon just wants you to buy from them.</p>
+
+		<!-- Start JBT-->
+		<div class="jumbotron py-5 mb-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+						<h4>Books | Files | Presentations | Documents</h4>
+					</div>
+					<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+						<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-	<!-- End of Footer -->
+		<!-- End of JBT -->
+		<!-- Start of Footer -->
+		<footer>
+			<div class="container">
+				<div class="row text-light text-center py-4 justify-content-center">
+					<div class="col-sm-10 col-md-8 col-lg-6">
+						<!--<img src="img/logo.jpg" alt="logo">-->
+						<p>Warning:
+							LIBER-ATUS is not condoning piracy. Download free books that are free. If you come
+							across a book that you know costs money, don't download it. Some books are indeed free, and
+							Amazon just wants you to buy from them.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
 
 
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="index.js"></script>
-	<!-- End of Script Source Files -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="index.js"></script>
+		<!-- End of Script Source Files -->
 
 </body>
 
