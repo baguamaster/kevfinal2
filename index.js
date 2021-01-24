@@ -21,7 +21,7 @@ $("#form").submit(function (e) {
         data.organic_results.forEach(res => {
             result = `
       
-      <h1>${res.title}</h1><br><a target="_blank href="${res.url}">${res.url}</a>
+      <h1>${res.title}</h1><br><a "target="_blank" href="${res.url}">${res.url}</a>
       <p>${res.snippet}</p>`
 
             $("#result").append(result)
