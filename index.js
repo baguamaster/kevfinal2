@@ -2,11 +2,10 @@ $("#form").submit(function (e) {
     e.preventDefault()
 
     var query = $("#search").val()
-    var filetype = $("#filetype").val()
-
+   
     var API_KEY = '91e67499c338b646b3590f73a5696583'
 
-    var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `&filetype=${filetype}`
+    var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype%3Apdf`
 
 
     console.log(url)
@@ -21,7 +20,7 @@ $("#form").submit(function (e) {
         data.organic_results.forEach(res => {
             result = `
       
-      <h1>${res.title}</h1><br><a "target="_blank" href="${res.url}">${res.url}</a>
+      <h1>${res.title}</h1><br><a target="_blank" href="${res.url}">${res.url}</a>
       <p>${res.snippet}</p>`
 
             $("#result").append(result)
@@ -30,13 +29,4 @@ $("#form").submit(function (e) {
     });
 
 })
-
-// $("#form").submit(function(){
-
-//      $.get(url, function(data){
-
-//      }) // end $.get
-
-// }); //  end submit
-
 

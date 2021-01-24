@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>OSINT TOOLS YAY</title>
-	<title>FORTRESS ASIA OSINT TOOLS</title>
+	<title>LIBER-ATUS</title>
 	<link rel="shortcut icon" href="img/icon.jpg">
 	<!-- Preloaded Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,12 +15,13 @@
 	<!-- googlefonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 	<!-- Top Bar & Contact Link -->
 	<div class="top-bar">
 		<div class="container">
 			<div class="col-12 text-right">
-				<p><a href="contact.html">FORTRESS ASIA</a></p>
+				<p><a href="contact.html">LIBER-ATUS</a></p>
 			</div>
 		</div>
 	</div>
@@ -37,78 +38,139 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="odata.html" class="nav-link">Open Data</a></li>
-					<li class="nav-item"><a href="ofiles.html" class="nav-link">Open Files</a></li>
-					<li class="nav-item"><a href="scred.html" class="nav-link">Unsecured Credentials</a></li>
+					<li class="nav-item"><a href="books.html" class="nav-link">Find Books</a></li>
+					<li class="nav-item"><a href="prezzo.html" class="nav-link">Find Presentations</a></li>
+					<li class="nav-item"><a href="doc.html" class="nav-link">Find Documents</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- End of Navigation -->
+
+
+	<!-- Carousel Timing -->
+	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+
+		<!-- Content of Carousel -->
+		<div class="carousel-inner">
+
+			<div class="carousel-item active">
+				<img src="img/carousel/1.jpg" alt="" class="w-100">
+				<div class="carousel-caption">
+					<div class="container">
+						<div class="row justify-content-end text-right">
+							<div class="col-6 col-lg-5 bg-custom d-none d-md-block py-3 px-0">
+								<h1>FIND BOOKS</h1>
+								<h3 class="pb-1">Liber:[ˈlɪbɛr] : Book (Latin)</h3>
+								<a href="books.html" class="btn btn-danger btn-lg ml-2">Search Here</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="img/carousel/2.jpg" alt="" class="w-100">
+				<div class="carousel-caption">
+					<div class="container">
+						<div class="row justify-content-end text-right">
+							<div class="col-5 bg-custom d-none d-lg-block py-3 px-0 pr-3">
+								<h1>FIND PRESESENTAIONS</h1>
+								<h3 class="lead pb-3">Be Instructed</h3>
+								<a href="prezzo.html" class="btn btn-danger btn-lg">Search Here</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="img/carousel/3.jpg" alt="" class="w-100">
+				<div class="carousel-caption">
+					<div class="container">
+						<div class="row justify-content-start text-left">
+							<div class="col-7 bg-custom d-none d-lg-block py-3 px-0 pl-3">
+								<h1>FIND DOCUMENTS</h1>
+								<h3 class="lead">Discover Knowledge </h3>
+								<a href="doc.html" class="btn btn-danger btn-lg">Search Here</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Carousel Content -->
+
+	<!-- Inclusion of Previous & Next Buttons -->
+	<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+		<span class="fas fa-chevron-left fa-3x"></span>
+	</a>
+
+	<a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+		<span class="fas fa-chevron-right fa-3x"></span>
+	</a>
+	<!-- End of Previous & Next Buttons -->
+
+
+	<!-- End Image Carousel -->
+
 	<!-- Main Page Heading -->
 	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-		<h1 class="text-dark pt-4">OSINT SEARCH TOOLS</h1>
+		<h1 class="text-dark pt-4">Liber [ˈlɪbɛr] : Book (Latin)</h1>
+		<h1 class="text-dark pt-4">Liberatus [ˈlɪbɛr-ah-toos'] : Freedom (Latin)</h1>
 		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		<p class="lead">OSINT : Open Sourced Intelligence</p>
+		<p class="lead">Knowledge is Freedom</p>
 	</div>
-	<br>
-	<!--search form-->
-	<div class="container">
-		<form id="form" autocomplete="off">
-			<div class="form-group">
-				<input type="text" id="search" class="form-control" placeholder="search">
-			</div>
-			<div class="form-group">
-				<button class="btb btn-danger-btn-block">Be precise in your search terms</button>
-			</div>
-		</form>
-		<!--displaying results-->
-		<div class="row">
-			<div id="result"></div>
-		</div>
-		<br>
-		<!-- Start JBT-->
-		<div class="jumbotron py-5 mb-0">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-						<h4>Cybersecurity | Audit | Forensics | Pentesting | SOCs | Policy</h4>
-					</div>
-					<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-						<a href="contact.html" class="btn btn-danger btn-lg">Customise your Security</a>
-					</div>
+
+
+
+	<!-- Start JBT-->
+	<div class="jumbotron py-5 mb-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+					<h4>Books | Files | Presentations | Documents</h4>
+				</div>
+				<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+					<a href="contact.html" class="btn btn-danger btn-lg">Customise your Security</a>
 				</div>
 			</div>
 		</div>
-		<!-- End of JBT -->
-		<!-- Start of Footer -->
-		<footer>
-			<div class="container">
-				<div class="row text-light text-center py-4 justify-content-center">
-					<div class="col-sm-10 col-md-8 col-lg-6">
-						<!--<img src="img/logo.jpg" alt="logo">-->
-						<p>Kev: LARGE disclaimer and warning on unauthorised hacking here</p>
-					</div>
+	</div>
+	<!-- End of JBT -->
+	<!-- Start of Footer -->
+	<footer>
+		<div class="container">
+			<div class="row text-light text-center py-4 justify-content-center">
+				<div class="col-sm-10 col-md-8 col-lg-6">
+					<!--<img src="img/logo.jpg" alt="logo">-->
+					<p>Warning:
+						Book Seeker is not condoning piracy. Download free books that are free. If you come
+						across a book that you know costs money, don't download it. Some books are indeed free, and
+						Amazon just wants you to buy from them.</p>
 				</div>
 			</div>
-		</footer>
-		<!-- End of Footer -->
+		</div>
+	</footer>
+	<!-- End of Footer -->
 
 
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-			crossorigin="anonymous"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
-		<script src="index.js"></script>
-		<!-- End of Script Source Files -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<!-- End of Script Source Files -->
 
 </body>
+
 </html>
