@@ -49,6 +49,68 @@ body {
     color: #4981b3!important;
 }
 
+}
+/*==CAROUSEL SLIDER!!!==*/
+
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
+}
+.carousel-inner {
+  max-height:25rem!important;
+  
+}
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 3.2s ease;
+
+}
+
+/*-- Carousel Content --*/
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-60%);
+  text-transform: uppercase;
+}
+.bg-custom {
+  background-color: rgba(0,0,0,0.35);
+  color:white;
+  border-radius: 1rem;
+  justify-self: auto;
+}
+.carousel-caption h1 {
+  font-size: 4rem;
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0,0,0,1);
+
+}
+.border-primary {
+  border-top: 0.2rem solid #4981b3!important;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,1);
+}
+
+.btn-lg {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+ 
+}
+.btn-primary {
+  background-color: #4981b3;
+  border: .05rem solid #4981b3;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #68a0d2!important;
+  border: .05rem solid #68a0d2!important;
+}
 
 /*============= FOOTER =============*/
 
