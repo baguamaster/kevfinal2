@@ -16,6 +16,7 @@ $("#form").submit(function (e) {
     var rd1 = document.getElementById("rd1")
     var rd2 = document.getElementById("rd2")
     var rd3 = document.getElementById("rd3")
+    var rd4 = document.getElementById("rd4")
 
     //APP CHECKS FOR WHAT IS SELECTED. SO IF RD1 WAS SELECTED, FUNCTION EXECUTES ETC.
     if (rd1.checked == true)
@@ -27,6 +28,10 @@ $("#form").submit(function (e) {
     else if (rd3.checked == true)
         var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype%3Axls`
 
+    else if (rd4.checked == true)
+        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype%3Adoc`
+
+    console.log(url)
 
 
     //var filetype = $("filetype").val();
@@ -60,17 +65,15 @@ $("#form").submit(function (e) {
     }
     */
 
-    console.log(url)
-
+    
 
     $.get(url, function (data) {
 
         $("#result").html('')
+            console.log(data)
 
-        console.log(data)
-
-        data.organic_results.forEach(res => {
-            result = `
+    data.organic_results.forEach(res => {
+        result = `
       
       <h1>${res.title}</h1><br><a target="_blank" href="${res.url}">${res.url}</a>
       <p>${res.snippet}</p>`
