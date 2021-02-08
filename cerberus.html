@@ -56,107 +56,93 @@
 		<h3 class="lead">All we ask is you respect Copyright and act responsibly.</h3>
 	</div>
 
+	<!--Instructions-->
 	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
 		<h1 class="text-dark pt-4">INSTRUCTIONS ON USE</h1>
 		<div class="border-top border-danger w-25 mx-auto my-3"></div>
 		<p class="lead">Kev: Instructions here + search tags tips</p>
 	</div>
 	<br>
+	<!--search form-->
 	<div class="container">
 		<form id="form" autocomplete="off">
 			<div class="form-group">
 				<input type="text" id="search" class="form-control" placeholder="search">
 
 				<form action="/action_page.php">
-					<p>Please select your filetype</p>
+					<p>Search for specific device brand</p>
 					<div class="row align-item-start" label class="radio-inline" justify-content>
-						<input type="radio" id="rd1" name="filetype" value="webcam">
-						<label for="webcam">Open Webcams</label>
-						<input type="radio" id="rd2" name="filetype" value="ftp">
-						<label for="ftp">Unsecure Email Servers</label>
-						<input type="radio" id="rd3" name="filetype" value="pw">
-						<label for="pw">Exposed Passwords</label>
-
+						<input type="radio" id="rd1" name="filetype" value="webcams">
+						<label for="pdf">Webcams &nbsp;&nbsp;</label>
+						<input type="radio" id="rd2" name="filetype" value="routers">
+						<label for="ppt">Exposed Servers &nbsp;&nbsp;</label>
+						<input type="radio" id="rd3" name="filetype" value="control systems">
+						<label for="xls">Control Systems &nbsp;&nbsp;</label>
+						<input type="radio" id="rd4" name="filetype" value="unsecured passwords">
+						<label for="doc">Unsecured Passwords &nbsp;&nbsp;</label>
 					</div>
-					<br>
 			</div>
 			<div class="form-group">
-				<button onclick="showAlert()" class="btb btn-danger-btn-block">Search for book title or subject</button>
+				<button onclick="showAlert()" class="btb btn-danger-btn-block">Search specific hardware model</button>
 
 			</div>
 		</form>
-
+		<!--displaying results-->
 		<div class="row">
 			<div id="result"></div>
 		</div>
 		<br>
 
+		<!--call to subscription-->
+		<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+			<a href="contact.html" class="btn btn-danger btn-lg">Want to see more search results? Subscribe!</a>
+		</div>
+		<br>
+		<br>
 
-		<!--search form-->
-		<div class="container">
-			<form id="form" autocomplete="off">
-				<div class="form-group">
-					<input type="text" id="search" class="form-control" placeholder="search">
+		<!-- Start JBT-->
+		<div class="jumbotron py-5 mb-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-lg-8 col-xl-12 my-auto">
+						<h4>Vulnerable Cameras | Exposed Servers | Control Systems | Unsecured Passwords</h4>
+					</div>
+					
 				</div>
-				<div class="form-group">
-					<button class="btb btn-danger-btn-block">Search for key word or subject</button>
-
-				</div>
-			</form>
-			<!--displaying results-->
-			<div class="row">
-				<div id="result"></div>
 			</div>
-			<br>
-
-
-			<!-- Start JBT-->
-			<div class="jumbotron py-5 mb-0">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-							<h4>Books | Files | Presentations | Documents</h4>
-						</div>
-						<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-							<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-						</div>
+		</div>
+		<!-- End of JBT -->
+		<!-- Start of Footer -->
+		<footer>
+			<div class="container">
+				<div class="row text-light text-center py-4 justify-content-center">
+					<div class="col-sm-10 col-md-8 col-lg-6">
+						<!--<img src="img/logo.jpg" alt="logo">-->
+						<p>Warning:
+							FORTRESS ASIA & CERBERUS are not condoning hacking. These are tools for the ethical
+							vulnerability assessor to probe for weaknesses and unsecured devices. To utilise passwords,
+							IDs, access permissions using OSINT tools IS A CRIME. This website is purely for educational
+							and training purposes only.</p>
 					</div>
 				</div>
 			</div>
-			<!-- End of JBT -->
-			<!-- Start of Footer -->
-			<footer>
-				<div class="container">
-					<div class="row text-light text-center py-4 justify-content-center">
-						<div class="col-sm-10 col-md-8 col-lg-6">
-							<!--<img src="img/logo.jpg" alt="logo">-->
-							<p>Warning:
-								LIBER-ATUS is not condoning piracy. Lecture or training material are the property of
-								their
-								respective authors. To use them you will require their expressed permission. In using
-								LIBER-ATUS you acknowledge you shall act in a law-abiding manner and respect the
-								Copyright
-								and Intellectual property of others.</p>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- End of Footer -->
+		</footer>
+		<!-- End of Footer -->
 
 
-			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-				crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-				integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-				crossorigin="anonymous"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-				integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-				crossorigin="anonymous"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			<script src="cerberus.js"></script>
-			<!-- End of Script Source Files -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="cerberus.js"></script>
+		<!-- End of Script Source Files -->
 
 </body>
 
