@@ -36,7 +36,7 @@
             function login() {
                 // Create a new object to contain the data in the loginForm.
                 // We assign the new object to a variable called "credentials".
-                var username = "kevin";
+                var username = "demo";
                 var password = "pw";
                 loginUsername = document.getElementById("username").value;
                 loginPw = document.getElementById("pw").value;
@@ -47,7 +47,7 @@
                 //usually window.location is used for redirecting but I dont know how you opened the file
                 else
                     confirm("Login credentials incorrect");
-                    window.open("index.html");
+                window.open("index.html");
 
             };
 
@@ -58,18 +58,18 @@
     <body>
         <div class="container">
             <div class="col-lg-4 my-4">
-                
+
                 <form id="loginForm" class="login">
                     <label>Username: </label>
-                    <input type="text" id="username" name="username">
+                    <input type="text" id="username" name="username" placeholder="demo" required="required">
                     <br>
                     <label>Password: </label>
-                    <input type="password" id="pw" name="pw">
-                    <input type="button" onclick="login()" value="Submit">
+                    <input type="password" id="pw" name="pw" placeholder="pw" required="required">
+                    <input type="button" class="btn btn-danger" onclick="login()" value="Submit">
                 </form>
                 <div id="message">
-                <br>
-                
+                    <br>
+
 
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <!--<img src="img/logo.jpg" alt="logo">-->
                     <h2>WELCOME TO FORTRESS ASIA CYBERSECURITY</h2>
                     <p>To access the free advanced search tools within, kindly sign in or register with us first.</p>
-                    <a href="contact.html" class="btn btn-outline-dark btn-md">Register</a>
+                    <a href="contact.html" class="btn btn-danger">Register</a>
                 </div>
             </div>
         </div>
