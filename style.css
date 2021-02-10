@@ -49,7 +49,7 @@ body {
     color: #4981b3!important;
 }
 
-}
+
 /*==CAROUSEL SLIDER!!!==*/
 
 #carousel {
@@ -110,6 +110,10 @@ body {
 .btn-primary:focus {
   background-color: #68a0d2!important;
   border: .05rem solid #68a0d2!important;
+}
+
+.login {
+    align-items: center;
 }
 
 /*============= FOOTER =============*/

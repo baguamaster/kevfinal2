@@ -43,11 +43,11 @@
                 console.log(window.location.href);
 
                 if (loginPw == password && loginUsername == username)
-                    window.location.href = "file:///C:/Users/user/Documents/Software%20Dev/PROJ%202b/home.html";
+                    window.open("home.html");
                 //usually window.location is used for redirecting but I dont know how you opened the file
                 else
                     confirm("Login credentials incorrect");
-                window.location.href = "file:///C:/Users/user/Documents/Software%20Dev/PROJ%202b/index.html";
+                    window.open("index.html");
 
             };
 
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="col-lg-4 my-4">
                 
-                <form id="loginForm">
+                <form id="loginForm" class="login">
                     <label>Username: </label>
                     <input type="text" id="username" name="username">
                     <br>
