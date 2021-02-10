@@ -26,91 +26,48 @@
 		</div>
 	</div>
 	<!-- End of Top Bar -->
-    <!-- Nav Bar Styling & Hamburger -->
-    <nav class="navbar bg-light navbar-light navbar-expand-lg">
-        <div class="container">
-            <!--<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
-				alt="logo" title="logo"></a>-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="liberatus.html" class="nav-link">LIBERATUS</a></li>
-					<li class="nav-item"><a href="cerberus.html" class="nav-link">CERBERUS</a></li>
-					<li class="nav-item"><a href="longinus.html" class="nav-link">LONGINUS</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Subscribe to powerful tools</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End of Navigation -->
-	<!-- Main Page Heading -->
-	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-		<h1 class="text-dark pt-4">WELCOME TO FORTRESS ASIA OSINT TOOLS</h1>
-		<h1 class="text-dark pt-4">O S I N T : Open Source Intelligence</h1>
-		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		<h3 class="lead">This is a free service powered by FORTRESS ASIA CYBERSECURITY</h3> 
-		<h3 class="lead">All we ask is you respect Copyright and act responsibly.</h3>
-	</div>
+    <!DOCTYPE html>
+<html>
 
-	<!-- 3 Column Section -->
-	<div class="container">
-		<div class="row my-5">
+<head>
+    <script>
+        var response = "";
 
+        function login() {
+            // Create a new object to contain the data in the loginForm.
+            // We assign the new object to a variable called "credentials".
+            var username = "kevin";
+            var password = "pw";
+            loginUsername = document.getElementById("username").value;
+            loginPw = document.getElementById("pw").value;
+            console.log(window.location.href);
 
-			<div class="col-md-4 my-4">
-				<img src="img/1.jpg" alt="" class="w-100"
-					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-				<h2 class="my-4">LIBERATUS</h2>	
-				<h4 class="my-4">Find Free Documents</h4>
-				<p>Books | Presentations | Files</p>
-				<a href="liberatus.html" class="btn btn-outline-dark btn-md">Find Here</a>
-			</div>
+                if (loginPw == password && loginUsername == username)
+                    window.location.href = "file:///C:/Users/user/Documents/Software%20Dev/PROJ%202b/home.html";
+                    //usually window.location is used for redirecting but I dont know how you opened the file
+                else
+                    confirm("Login credentials incorrect");
+                    window.location.href = "file:///C:/Users/user/Documents/Software%20Dev/PROJ%202b/index.html";
 
-			<div class="col-md-4 my-4">
-				<img src="img/cerberus.jpg" alt="" class="w-100"
-					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-				<h2 class="my-4">CERBERUS</h2>	
-				<h4 class="my-4">Find Vulnerable Databases</h4>
-				<p>Seek out weaknesses and remedy</p>
-				<a href="cerberus.html" class="btn btn-outline-dark btn-md">Seek Now</a>
-			</div>
+            };
+        
+    </script>
 
-			<div class="col-md-4 my-4">
-				<img src="img/longinus.jpg" alt="" class="w-100"
-					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-				<h2 class="my-4">LONGINUS</h2>	
-				<h4 class="my-4">Find URL Weaknesses</h4>
-				<p>Will you stand up for the weak?</p>
-				<a href="longinus.html" class="btn btn-outline-dark btn-md">Answers here</a>
-			</div>
+</head>
 
-		</div>
-	</div>
+<body>
+    <form id="loginForm">
+        <label>Username: </label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label>Password: </label>
+        <input type="password" id="pw" name="pw">
+        <input type="button" onclick="login()" value="Submit">
+    </form>
+    <div id="message"></div>
+</body>
 
-	<!-- End of 3 Column Section -->
-
-
-
-
-	<!-- Start JBT-->
-	<div class="jumbotron py-5 mb-0">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-					<h4>Books | Manuals | Presentations | Documents</h4>
-				</div>
-				<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-					
-					<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End of JBT -->
+</html>
 	<!-- Start of Footer -->
 	<footer>
 		<div class="container">
