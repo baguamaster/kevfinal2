@@ -16,7 +16,6 @@ $("#form").submit(function (e) {
     var rd1 = document.getElementById("rd1")
     var rd2 = document.getElementById("rd2")
     var rd3 = document.getElementById("rd3")
-    var rd4 = document.getElementById("rd4")
 
     //APP CHECKS FOR WHAT IS SELECTED. SO IF RD1 WAS SELECTED, FUNCTION EXECUTES ETC.
     if (rd1.checked == true)
@@ -24,13 +23,12 @@ $("#form").submit(function (e) {
         var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+8080`
 
     else if (rd2.checked == true)
-        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+ inurl:/proc/self/cwd`
-   
-        else if (rd3.checked == true)
-        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+intitle:"index of" inurl:ftp after:2020`
+        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+inurl:/proc/self/cwd`
 
-    else if (rd4.checked == true)
-        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+allintext:password filetype:log after:2019`
+    else if (rd3.checked == true)
+        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype:xls inurl:"email.xls"`
+
+
 
     console.log(url)
 

@@ -40,7 +40,6 @@
 					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
 					<li class="nav-item"><a href="liberatus.html" class="nav-link">LIBERATUS</a></li>
 					<li class="nav-item"><a href="cerberus.html" class="nav-link">CERBERUS</a></li>
-					<li class="nav-item"><a href="longinus.html" class="nav-link">LONGINUS</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Subscribe to powerful tools</a></li>
 				</ul>
 			</div>
@@ -52,103 +51,128 @@
 		<h1 class="text-dark pt-4">WELCOME TO CERBERUS</h1>
 		<h1 class="text-dark pt-4">The search tool for finding open vulnerabilities</h1>
 		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		<h3 class="lead">Kev: Instructions and search tags hints here</h3>
-		<h3 class="lead">All we ask is you respect Copyright and act responsibly.</h3>
-		<div class="col-lg-6 my-md-auto">
-			<img src="img/cerberus.jpg" alt="" class="w-100"
-				style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-		</div>
+		<h3 class="lead">All we ask is you respect Copyright, Privacy of others and act responsibly.</h4>
+		<h4 class="text-danger">Warning: Any use of information herein for illegal access is a criminal offence.</h4>
+		<br>
+		
+	</div>
+	<!-- 3 Column Section -->
+	<div class="container">
+		<div class="row my-5">
 
-		<!--Instructions-->
-		<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-			<h1 class="text-dark pt-4">INSTRUCTIONS ON USE</h1>
-			<div class="border-top border-danger w-25 mx-auto my-3"></div>
-			<p class="lead">Kev: Instructions here + search tags tips</p>
+
+			<div class="col-md-4 my-4">
+				<img src="img/webcam.jpg" alt="" class="w-100"
+					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
+				<h4 class="my-4">Open Webcams</h4>
+				<p>Prevent Privacy Breaches</p>
+			</div>
+
+			<div class="col-md-4 my-4">
+				<img src="img/servers.jpg" alt="" class="w-100"
+					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
+				<h4 class="my-4">Unsecured Servers</h4>
+				<p>Fix Exposed Networks</p>
+			</div>
+
+			<div class="col-md-4 my-4">
+				<img src="img/emails.jpg" alt="" class="w-100"
+					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
+				<h4 class="my-4">Exposed Emails</h4>
+				<p>Secure Precious Data</p>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- End of 3 Column Section -->
+	<!--Instructions-->
+	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+		<h3 class="text-dark pt-4">INSTRUCTIONS ON USE</h3>
+		<div class="border-top border-danger w-25 mx-auto my-3"></div>
+		<h4 class=>Think carefully about what you wish to find and phrase the search accordingly. Or just leave it blank.</h4>
+		<h6 class=>eg. (Webcam model)"Webcam 7">Open Webcams | (Server type)"FTP">Unsecured Servers | (Database type or company)"DB" or "Disney">Exposed Emails </h6>
+	</div>
+	<br>
+	<!--search form-->
+	<div class="container">
+		<form id="form" autocomplete="off">
+			<div class="form-group">
+				<input type="text" id="search" class="form-control" placeholder="Enter specific search strings">
+
+				<form action="/action_page.php">
+					<p class="text-danger">Warning: Any use of information herein for illegal access is a criminal offence.</p>
+					<div class="row align-item-start" label class="radio-inline" justify-content>
+						<input type="radio" id="rd1" name="filetype" value="webcams">
+						<label for="pdf">Open Webcams &nbsp;&nbsp;</label>
+						<input type="radio" id="rd2" name="filetype" value="routers">
+						<label for="ppt">Unsecured Servers &nbsp;&nbsp;</label>
+						<input type="radio" id="rd3" name="filetype" value="control systems">
+						<label for="xls">Exposed Emails &nbsp;&nbsp;</label>
+						<label for="doc">(Members-only search tools: Unsecured Passwords | Weak Databases | Corporate Firewalls | Configuration Files etc) &nbsp;&nbsp;</label>
+					</div>
+			</div>
+			<div class="form-group">
+				<button onclick="showAlert()" class="btb btn-danger-btn-block">Search with Care!</button>
+
+			</div>
+		</form>
+		<!--displaying results-->
+		<div class="row">
+			<div id="result"></div>
 		</div>
 		<br>
-		<!--search form-->
+
+		<!--call to subscription-->
+		<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+			<a href="contact.html" class="btn btn-danger btn-lg">Want to see more search results? Subscribe!</a>
+		</div>
+		<br>
+		<br>
+
+	<!-- Start JBT-->
+	<div class="jumbotron py-5 mb-0">
 		<div class="container">
-			<form id="form" autocomplete="off">
-				<div class="form-group">
-					<input type="text" id="search" class="form-control" placeholder="search">
-
-					<form action="/action_page.php">
-						<p>Search for specific device brand</p>
-						<div class="row align-item-start" label class="radio-inline" justify-content>
-							<input type="radio" id="rd1" name="filetype" value="webcams">
-							<label for="pdf">Webcams &nbsp;&nbsp;</label>
-							<input type="radio" id="rd2" name="filetype" value="routers">
-							<label for="ppt">Exposed Servers &nbsp;&nbsp;</label>
-							<input type="radio" id="rd3" name="filetype" value="control systems">
-							<label for="xls">Control Systems &nbsp;&nbsp;</label>
-							<input type="radio" id="rd4" name="filetype" value="unsecured passwords">
-							<label for="doc">Unsecured Passwords &nbsp;&nbsp;</label>
-						</div>
-				</div>
-				<div class="form-group">
-					<button onclick="showAlert()" class="btb btn-danger-btn-block">Search specific hardware
-						model</button>
-
-				</div>
-			</form>
-			<!--displaying results-->
 			<div class="row">
-				<div id="result"></div>
-			</div>
-			<br>
-
-			<!--call to subscription-->
-			<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-				<a href="contact.html" class="btn btn-danger btn-lg">Want to see more search results? Subscribe!</a>
-			</div>
-			<br>
-			<br>
-
-			<!-- Start JBT-->
-			<div class="jumbotron py-5 mb-0">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-							<h4>Defence | Response | Audit | Forensics</h4>
-						</div>
-						<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-							<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-						</div>
-					</div>
+				<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+					<h4>Defence | Response | Audit | Forensics</h4>
+				</div>
+				<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+					<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
 				</div>
 			</div>
-			<!-- End of JBT -->
-			<!-- Start of Footer -->
-			<footer>
-				<div class="container">
-					<div class="row text-dark text-center py-4 justify-content-center">
-						<div class="col-sm-10 col-md-8 col-lg-6">
-							<img src="img/logo.JPG" alt="logo">
-							<p>Warning:
-								FORTRESS ASIA provides these free tools for demonstration and educational purposes.
-								Users bear
-								full responsibility for unethical behaviour. All search queries are logged. Respect
-								Copyright,
-								Privacy & Data belonging to others. Be a Force for Good.</p>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- End of Footer -->
+		</div>
+	</div>
+	<!-- End of JBT -->
+  <!-- Start of Footer -->
+  <footer>
+	<div class="container">
+		<div class="row text-dark text-center py-4 justify-content-center">
+			<div class="col-sm-10 col-md-8 col-lg-6">
+				<img src="img/logo.JPG" alt="logo">
+				<p>Warning:
+					FORTRESS ASIA provides these free tools for demonstration and educational purposes. Users bear
+					full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
+					Privacy & Data belonging to others. Be a Force for Good.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- End of Footer -->
 
-			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-				crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-				integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-				crossorigin="anonymous"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-				integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-				crossorigin="anonymous"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			<script src="cerberus.js"></script>
-			<!-- End of Script Source Files -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="cerberus.js"></script>
+		<!-- End of Script Source Files -->
 
 </body>
 
