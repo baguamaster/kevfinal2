@@ -20,13 +20,13 @@ $("#form").submit(function (e) {
     //APP CHECKS FOR WHAT IS SELECTED. SO IF RD1 WAS SELECTED, FUNCTION EXECUTES ETC.
     if (rd1.checked == true)
 
-        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+8080`;
+        var url = 'https://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+8080`;
 
     else if (rd2.checked == true)
-        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+inurl:/proc/self/cwd`;
+        var url = 'https://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+inurl:/proc/self/cwd`;
 
     else if (rd3.checked == true)
-        var url = 'http://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype:xls inurl:"email.xls"`;
+        var url = 'https://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype:xls inurl:"email.xls"`;
 
 
 
