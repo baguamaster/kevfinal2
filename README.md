@@ -6,7 +6,7 @@
 
 By Kevin Ho | traderkev54@yahoo.
 
-![image](img/markdownpics/m1.jpeg)
+![image](img/markdownpics/m1.jpg)
 
 **Context**
 
