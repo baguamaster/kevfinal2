@@ -4,7 +4,9 @@
 
 **Milestone Project 2 Interactive Front-End Development**
 
-B ![](RackMultipart20210211-4-16dm7a5_html_e863ca5dcf9f76ec.png) y Kevin Ho | traderkev54@yahoo.com
+By Kevin Ho | traderkev54@yahoo.
+
+![image](img/markdownpics/m1.jpeg)
 
 **Context**
 
@@ -23,15 +25,14 @@ Site owner&#39;s goal: To showcase cybersecurity search tools, and to encourage 
 
 The website can be found in the github repository: [https://baguamaster.github.io/kevfinal2/](https://baguamaster.github.io/kevfinal2/)
 
-![](RackMultipart20210211-4-16dm7a5_html_a5854732572dce46.png) ![](RackMultipart20210211-4-16dm7a5_html_8a5f472f69216cc2.png)
 
-![](RackMultipart20210211-4-16dm7a5_html_ac8e9835bd6ec5d5.png)B ![](RackMultipart20210211-4-16dm7a5_html_6de4fd0fc4aefbfd.jpg) elow: use of the LIBERATUS search tool to find service manuals of an out of production Italian car (the Alfa Romeo GTV6 to be exact)
+![image](img/markdownpics/m2.jpg)
 
-![](RackMultipart20210211-4-16dm7a5_html_6abb96e656472dce.png)
+![image](img/markdownpics/m3.jpg)
 
-![](RackMultipart20210211-4-16dm7a5_html_d16716d740cabca1.png)
+![image](img/markdownpics/m4.jpg)
 
-![](RackMultipart20210211-4-16dm7a5_html_36b72f0c931bec94.png)
+![image](img/markdownpics/m5.jpg)
 
 # **Website Purpose**
 
@@ -164,7 +165,7 @@ Login Page\&gt; Home Page \&gt; About \&gt; LIBERATUS \&gt; CERBERUS \&gt; Sign 
 
 **Each page has its own hyperlinks relevant to it**
 
-![](RackMultipart20210211-4-16dm7a5_html_520994ab7886e355.png)
+![image](img/markdownpics/m6.jpg)
 
 1. **Login Page:**
   - **Currently on demo mode only (user id: demo; password: pw)**
@@ -232,7 +233,9 @@ Login Page\&gt; Home Page \&gt; About \&gt; LIBERATUS \&gt; CERBERUS \&gt; Sign 
     4. Easy to identify buttons
 2. Reader Comprehension
   1. Content are grouped according to subject matter and prose is broken up when long.
-  2. T ![](RackMultipart20210211-4-16dm7a5_html_36449be4ea6628ea.png) he Flesch Readability Test = 54.7, Flesch-Kincaid Grade Level Score = 7, which means the website is easily understood by 13-14 year olds and up.
+  2. The Flesch Readability Test = 54.7, Flesch-Kincaid Grade Level Score = 7, which means the website is easily understood by 13-14 year olds and up.
+  
+![image](img/markdownpics/m7.jpg)
 
 1. Operability
   1. The visitor should be able to easily navigate without trouble.
@@ -261,7 +264,7 @@ Login Page\&gt; Home Page \&gt; About \&gt; LIBERATUS \&gt; CERBERUS \&gt; Sign 
 
 **Site Map**
 
-![](RackMultipart20210211-4-16dm7a5_html_520994ab7886e355.png)
+![image](img/markdownpics/m6.jpg)
 
 **Navigation Elements**
 
@@ -301,7 +304,7 @@ Monserrat font is used throughout for the website as it is clean, not too common
 
 **Images**
 
-![](RackMultipart20210211-4-16dm7a5_html_7a01ea3e1e945f22.png)
+![image](img/markdownpics/m10.jpg)
 
 Images are chosen for their powerful storytelling ability and whilst some real pictures are used, some stock images were utilized in this demo version. No doubt in the production version, some professional images will need to be shot again.
 
@@ -335,7 +338,7 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 **Jshint Linter**
 
-![](RackMultipart20210211-4-16dm7a5_html_39fc84fe1661b32f.png)
+![image](img/markdownpics/m11.jpg)
 
 - JS scripts have cleared Jshint Linter
 - What remains are largely esversion:6 syntax issues.
@@ -364,7 +367,7 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 # **API**
 
-![](RackMultipart20210211-4-16dm7a5_html_e60f641323d0d12f.png)
+![image](img/markdownpics/m12.jpg)
 
 - The search tools are powered by Google Search APIs, and provided free for up to 100 searches a day by SERPSTACK
 - Additional search tags needed to be added to specific searches (determined by user and his/her choice of search types)
@@ -400,7 +403,7 @@ Post deployment test procedures:
 
 **Sample of Detailed Testing Steps**
 
-![](RackMultipart20210211-4-16dm7a5_html_6abb96e656472dce.png)
+![image](img/markdownpics/m13.jpg)
 
 **In this case, testing is done to check the functionality of the CERBERUS Vulnerability Assessment Search Tool.**
 
@@ -418,12 +421,12 @@ This tool is configured to detect the following:
 
 **Form Check**
 
-![](RackMultipart20210211-4-16dm7a5_html_d16716d740cabca1.png)
+![image](img/markdownpics/m19.jpg)
 
 - In this instance, a specific webcam brand and model is searched for, to find unsecured live feeds.
 - This example above shows a successful search, revealing seemingly &quot;secured&quot; http addresses that can be intercepted
 
-![](RackMultipart20210211-4-16dm7a5_html_36b72f0c931bec94.png)
+![image](img/markdownpics/m14.jpg)
 
 - Clicking on the top most search result opens a webcam 7 admin application
 - The black &amp; white image is taken off a &#39;live&#39; video feed of one such camera, in Europe.
@@ -433,7 +436,7 @@ This tool is configured to detect the following:
 
 **TEST 2 – Finding ROOT access information using CERBERUS**
 
-![](RackMultipart20210211-4-16dm7a5_html_203cb58816e3a6a9.png)
+![image](img/markdownpics/m15.jpg)
 
 - Successful reconnoiter of the Walt Disney Company, showing excel spreadsheets of email lists, sales data etc.
 
@@ -442,7 +445,9 @@ This tool is configured to detect the following:
 - 3 pages checked using W3C Jigsaw CSS Validator (https://jigsaw.w3.org/css-validator/)
   - home.html – 2 errors detected in bootstrap.css.min (told to ignore them by instructor)
   - cerberus.html – Same 2 errors
-  - a ![](RackMultipart20210211-4-16dm7a5_html_91e09b13c46a31a.png) bout.html – Same 2 errors
+  - about.html – Same 2 errors
+  
+  ![image](img/markdownpics/m15.jpg)
 
 - 3 pages validated using W3 Markup Validation Service ([http://validator.w3.org/](http://validator.w3.org/))
   - home.html - Document checking completed. No errors or warnings to show.
@@ -453,8 +458,8 @@ This tool is configured to detect the following:
   - index.html – none
   - liberatus.html – none
   - contact.html – none
-
-![](RackMultipart20210211-4-16dm7a5_html_a70cef301c8934a1.png)
+  
+![image](img/markdownpics/m16.jpg)
 
 **Navigation Check**
 
@@ -480,7 +485,7 @@ This tool is configured to detect the following:
 - Currently there have been about 60 commits in the development phase
 - Deployment to the web is made via the github &quot;deploy&quot; function
 
-![](RackMultipart20210211-4-16dm7a5_html_97f44718f600bd79.png)
+![image](img/markdownpics/m17.jpg)
 
 **Quality Assurance**
 
@@ -490,7 +495,7 @@ This tool is configured to detect the following:
 - 594 deletions
 - Over the 32 files
 
-![](RackMultipart20210211-4-16dm7a5_html_781f230120efbc8c.png)
+![image](img/markdownpics/m18.jpg)
 
 # **Technologies Applied**
 
@@ -540,8 +545,8 @@ All major changes were committed on a regular basis to github.
 
 **Git Pages**
 
-- [**https://github.com/baguamaster/tgc-milestones**](https://github.com/baguamaster/tgc-milestones)
+- [https://github.com/baguamaster/kevfinal2](https://github.com/baguamaster/kevfinal2)
 
 **Demo Website**
 
-- [**https://baguamaster.github.io/tgc-milestones/index.html**](https://baguamaster.github.io/tgc-milestones/index.html)
+- [https://baguamaster.github.io/kevfinal2/](https://baguamaster.github.io/kevfinal2/)
