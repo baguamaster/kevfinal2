@@ -31,27 +31,27 @@ Site owner&#39;s goal: To showcase search tools, and to encourage people to use 
 
 **The website can be found in the github repository:** [**https://baguamaster.github.io/kevfinal2/**](https://baguamaster.github.io/kevfinal2/)
 
-![image](img/markdownpics/m2.jpg)
+![image](img/markdownpics/m2.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_373381a2ae190bf0.gif)
 
-![image](img/markdownpics/m3.jpg)
+![image](img/markdownpics/m3.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_810bc8335e85ebb6.gif)
 
-![image](img/markdownpics/m4.jpg)
+![image](img/markdownpics/m4.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_ff3f6668d2937276.jpg)
 
-![image](img/markdownpics/m5.jpg)
+![image](img/markdownpics/m5.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_1f0c10d89a26531.gif)
 
-![image](img/markdownpics/m51.jpg)
+![image](img/markdownpics/m51.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_7c2d5b9ca32db876.jpg)
 
-![image](img/markdownpics/m6.jpg)
+![image](img/markdownpics/m6.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_f037dac07b8f0546.jpg)
 
