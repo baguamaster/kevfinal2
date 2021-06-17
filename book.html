@@ -2,117 +2,120 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Book Finder</title>
-	<!-- Preloaded Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- style CSS -->
-	<link rel="stylesheet" href="style.css">
-	<!-- googlefonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
-	<script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Finder</title>
+    <!-- Preloaded Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- googlefonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
 </head>
 
 <body>
-	<!-- Top Bar & Contact Link -->
-	<div class="top-bar">
-		<div class="container">
-			<div class="col-12 text-right">
-				<p><a href="contact.html">Book Finder</a></p>
-			</div>
-		</div>
-	</div>
-	<!-- End of Top Bar -->
-	<!-- Nav Bar Styling -->
-	<nav class="navbar bg-light navbar-light navbar-expand-lg">
-		<div class="container">
-			<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
-				alt="logo" title="logo"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-					<li class="nav-item"><a href="book.html" class="nav-link">Book Search</a></li>
-					<li class="nav-item"><a href="document.html" class="nav-link">Document Search</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- End of Navigation -->
-	<!-- Main Page Heading -->
-	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-		<h1 class="lead">Search engine for finding and previewing books</h1>
-		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		
-	</div>
+    <!-- Top Bar & Contact Link -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="col-12 text-right">
+                <p><a href="contact.html">Book Finder</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Top Bar -->
+    <!-- Nav Bar Styling -->
+    <nav class="navbar bg-light navbar-light navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="img/logo.jpg" alt="logo" title="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="book.html" class="nav-link">Book Search</a></li>
+                    <li class="nav-item"><a href="document.html" class="nav-link">Document Search</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <!-- Main Page Heading -->
+    <h1 class="text-dark pt-4">BOOK SEARCH</h1>
+    <div class="border-top border-danger w-25 mx-auto my-3"></div>
+    <div class="col-12 text-center mt-6" style="padding-top: 3rem">
+        <h1 class="lead">Search engine for finding and previewing books</h1>
+        <div class="border-top border-danger w-25 mx-auto my-3"></div>
 
-	<!--Instructions-->
-	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-		<h3 class="text-dark pt-4">INSTRUCTIONS ON USE</h3>
-		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		<h4>Simply type in the title of the book or subject matter and select the appropriate file type you wish to
-			find. eg.0738531367/Macbeth</h4>
-		<p style="color:red">Only books present in the Google Book Library can be previewed</p>	
-		
-	</div>
-	<div class="row">
-		<div class="col-md-4">
-			<iframe src="https://isbnsearch.org/" height="700px" width="500px" style="border:none;" class="justify-content-*-start"></iframe>
-		</div>
-		<div class="col-md-4">
-			<img src="img/instructions.jpg" alt="Instructions" class="justify-content-center">
-			<form>
-				<input type="text" id="isbn" class="form-control" placeholder="Enter ISBN number to preview" required="required"><br>
-				<button type='button' onclick="initialize()" class="btb btn-danger-btn-block">Preview</button>
-			</form>
-		</div>
-		<div class="col-md-4">
-			<div class="float-right" id="viewerCanvas" style="width: 500px; height: 700px"></div>
-		</div>
-	  </div>
-	<br>
+    </div>
 
-		<!--call to subscription-->
-		<div class="col-12 text-center mt-6 justify-content-center style="padding-top: 3rem" >
-			<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-		</div>
-		<br>
+    <!--Instructions-->
+    <div class="col-12 text-center mt-6" style="padding-top: 3rem">
+        <h3 class="text-dark pt-4">INSTRUCTIONS ON USE</h3>
+        <div class="border-top border-danger w-25 mx-auto my-3"></div>
+        <h4>Simply type in the title of the book or subject matter and select the appropriate file type you wish to
+            find. eg.0738531367/Macbeth</h4>
+        <p style="color:red">Only books present in the Google Book Library can be previewed</p>
 
-		<!-- Start of Footer -->
-		<footer>
-			<div class="container">
-				<div class="row text-dark text-center py-4 justify-content-center">
-					<div class="col-sm-10 col-md-8 col-lg-6">
-						<p>Warning & Dislaimer:
-							We provide these free tools for demonstration and educational purposes. Users bear
-							full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
-							Privacy & Data belonging to others.</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- End of Footer -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <iframe src="https://isbnsearch.org/" height="700px" width="500px" style="border:none;"
+                class="justify-content-*-start"></iframe>
+        </div>
+        <div class="col-md-4">
+            <img src="img/instructions.jpg" alt="Instructions" class="justify-content-center">
+            <form>
+                <input type="text" id="isbn" class="form-control" placeholder="Enter ISBN number to preview"
+                    required="required"><br>
+                <button type='button' onclick="initialize()" class="btb btn-danger-btn-block">Preview</button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <div class="float-right" id="viewerCanvas" style="width: 500px; height: 700px"></div>
+        </div>
+    </div>
+    <br>
 
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-			crossorigin="anonymous"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="book.js"></script>
-		<!-- End of Script Source Files -->
+    <!--call to subscription-->
+    <div class="col-12 text-center mt-6 justify-content-center style=" padding-top: 3rem">
+        <a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
+    </div>
+    <br>
+
+    <!-- Start of Footer -->
+    <footer>
+        <div class="container">
+            <div class="row text-dark text-center py-4 justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-6">
+                    <p>Warning & Dislaimer:
+                        We provide these free tools for demonstration and educational purposes. Users bear
+                        full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
+                        Privacy & Data belonging to others.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="book.js"></script>
+    <!-- End of Script Source Files -->
 
 </body>
 
