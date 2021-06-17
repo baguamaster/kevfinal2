@@ -53,87 +53,85 @@
 
     </div>
 
-    <!--Instructions-->
-    <div class="col-12 text-center mt-6" style="padding-top: 3rem">
-        <h3 class="text-dark pt-4">INSTRUCTIONS ON USE</h3>
-        <div class="border-top border-danger w-25 mx-auto my-3"></div>
-        <h4>Simply type in the subject matter and select the appropriate file type you wish to
-            find.</h4>
-        <h5 class="lead">eg. "Mercedes R350">PDF Documents | "Ion physics">Presentations | "Tide table">Data Files |
-            "Wills
-            template">Documents & Templates</h5>
-    </div>
-    <br>
-    <!--search form-->
-    <div class="container">
-        <form id="form" autocomplete="off">
-            <div class="form-group">
-                <input type="text" id="search" class="form-control" placeholder="Enter document name or subject"
-                    required="required">
+   	<!--Instructions-->
+	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+		<h3 class="text-dark pt-4">INSTRUCTIONS ON USE</h3>
+		<div class="border-top border-danger w-25 mx-auto my-3"></div>
+		<h4>Simply type in the subject matter and select the appropriate file type you wish to
+			find.</h4>
+		<h5 class="lead">eg. "Mercedes R350">PDF Documents | "Ion physics">Presentations | "Tide table">Data Files |
+			"Wills
+			template">Documents & Templates</h5>
+	</div>
+	<br>
+	<!--search form-->
+	<div class="container">
+		<form id="form" autocomplete="off">
+			<div class="form-group">
+				<input type="text" id="search" class="form-control" placeholder="Enter document name or subject" required="required">
 
-                <form action="/action_page.php">
-                    <br>
-                    <p> Please select your filetype</p>
-                    <div class="row align-item-start" label class="radio-inline" justify-content>
-                        <input type="radio" id="rd1" name="filetype" value="pdf" required>
-                        <label for="pdf">PDF Documents &nbsp;&nbsp;</label>
-                        <input type="radio" id="rd2" name="filetype" value="ppt">
-                        <label for="ppt">Presentations &nbsp;&nbsp;</label>
-                        <input type="radio" id="rd3" name="filetype" value="xls">
-                        <label for="xls">Data Files &nbsp;&nbsp;</label>
-                        <input type="radio" id="rd4" name="filetype" value="doc">
-                        <label for="doc">Documents & Templates &nbsp;&nbsp;</label>
-                    </div>
-                    <br>
-            </div>
-            <div class="form-group">
-                <button class="btb btn-danger-btn-block">Search for documents</button>
+				<form action="/action_page.php">
+					<br>
+					<p> Please select your filetype</p>
+					<div class="row align-item-start" label class="radio-inline" justify-content>
+						<input type="radio" id="rd1" name="filetype" value="pdf" required>
+						<label for="pdf">PDF Documents &nbsp;&nbsp;</label>
+						<input type="radio" id="rd2" name="filetype" value="ppt">
+						<label for="ppt">Presentations &nbsp;&nbsp;</label>
+						<input type="radio" id="rd3" name="filetype" value="xls">
+						<label for="xls">Data Files &nbsp;&nbsp;</label>
+						<input type="radio" id="rd4" name="filetype" value="doc">
+						<label for="doc">Documents & Templates &nbsp;&nbsp;</label>
+					</div>
+					<br>
+			</div>
+			<div class="form-group">
+				<button class="btb btn-danger-btn-block">Search for documents</button>
 
-            </div>
-        </form>
-        <!--displaying results-->
-        <div class="row row-cols-1">
-            <div id="result"></div>
-        </div>
-        <br>
+			</div>
+		</form>
+		<!--displaying results-->
+		<div class="row row-cols-1">
+			<div id="result"></div>
+		</div>
+		<br>
 
-        <!--call to subscription-->
-        <div class="col-12 text-center mt-6" style="padding-top: 3rem">
-            <a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-        </div>
-        <br>
+		<!--call to subscription-->
+		<div class="col-12 text-center mt-6" style="padding-top: 3rem">
+			<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
+		</div>
+		<br>
 
-        <!-- Start of Footer -->
-        <footer>
-            <div class="container">
-                <div class="row text-dark text-center py-4 justify-content-center">
-                    <div class="col-sm-10 col-md-8 col-lg-6">
-                        <p>Warning & Dislaimer:
-                            We provide these free tools for demonstration and educational purposes. Users bear
-                            full responsibility for unethical behaviour. All search queries are logged. Respect
-                            Copyright,
-                            Privacy & Data belonging to others.</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- End of Footer -->
+		<!-- Start of Footer -->
+		<footer>
+			<div class="container">
+				<div class="row text-dark text-center py-4 justify-content-center">
+					<div class="col-sm-10 col-md-8 col-lg-6">
+						<p>Warning & Dislaimer:
+							We provide these free tools for demonstration and educational purposes. Users bear
+							full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
+							Privacy & Data belonging to others.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End of Footer -->
 
 
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="document.js"></script>
-        <!-- End of Script Source Files -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="document.js"></script>
+		<!-- End of Script Source Files -->
 
 </body>
 
