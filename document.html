@@ -5,8 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>FORTRESS ASIA</title>
-	<link rel="shortcut icon" href="img/icon.jpg">
+	<title>Document Finder</title>
 	<!-- Preloaded Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,26 +20,26 @@
 	<div class="top-bar">
 		<div class="container">
 			<div class="col-12 text-right">
-				<p><a href="contact.html">FORTRESS ASIA OSINT TOOLS</a></p>
+				<p><a href="contact.html">Document Finder</a></p>
 			</div>
 		</div>
 	</div>
 	<!-- End of Top Bar -->
-	<!-- Nav Bar Styling & Hamburger -->
+	<!-- Nav Bar Styling -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-			<!--<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
-				alt="logo" title="logo"></a>-->
+			<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
+				alt="logo" title="logo"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-					<li class="nav-item"><a href="liberatus.html" class="nav-link">LIBERATUS</a></li>
-					<li class="nav-item"><a href="cerberus.html" class="nav-link">CERBERUS</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Subscribe to powerful tools</a></li>
+					<li class="nav-item"><a href="book.html" class="nav-link">Book Search</a></li>
+					<li class="nav-item"><a href="document.html" class="nav-link">Document Search</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -48,51 +47,19 @@
 	<!-- End of Navigation -->
 	<!-- Main Page Heading -->
 	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-		<h1 class="text-dark pt-4">Liber [ˈlɪbɛr] : Book (Latin)</h1>
-		<h1 class="text-dark pt-4">Liberatus [ˈlɪbɛh-ra.t̪ʊs̠'] : Freedom (Latin)</h1>
+		<h1 class="lead">Search engine for finding free documents, presentations and data sheets on the
+			internet.</h1>
 		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		<h3 class="lead">LIBERATUS is a search engine for finding free books, presentations and manuals on the
-			internet.</h3>
-		<h3 class="lead">All we ask is you respect Copyright and act responsibly.</h3>
+		
 	</div>
-	<!-- 3 Column Section -->
-	<div class="container">
-		<div class="row my-5">
-
-
-			<div class="col-md-4 my-4">
-				<img src="img/1.jpg" alt="" class="w-100"
-					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-				<h4 class="my-4">Find Books & Files</h4>
-				<p>The world of books awaits.</p>
-			</div>
-
-			<div class="col-md-4 my-4">
-				<img src="img/2.jpg" alt="" class="w-100"
-					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-				<h4 class="my-4">Find Presentations</h4>
-				<p>Seek the Wisdom of others.</p>
-			</div>
-
-			<div class="col-md-4 my-4">
-				<img src="img/3.jpg" alt="" class="w-100"
-					style="padding-bottom: 1rem; float:left;height:15rem; object-fit:cover">
-				<h4 class="my-4">Find Manuals</h4>
-				<p>Don't know how something works?</p>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- End of 3 Column Section -->
 
 	<!--Instructions-->
 	<div class="col-12 text-center mt-6" style="padding-top: 3rem">
 		<h3 class="text-dark pt-4">INSTRUCTIONS ON USE</h3>
 		<div class="border-top border-danger w-25 mx-auto my-3"></div>
-		<h4>Simply type in the title of the book or subject matter and select the appropriate file type you wish to
+		<h4>Simply type in the subject matter and select the appropriate file type you wish to
 			find.</h4>
-		<h5 class="lead">eg. "Mercedes R350">Books & Manuals | "Ion physics">Presentations | "Tide table">Data Files |
+		<h5 class="lead">eg. "Mercedes R350">PDF Documents | "Ion physics">Presentations | "Tide table">Data Files |
 			"Wills
 			template">Documents & Templates</h5>
 	</div>
@@ -101,14 +68,14 @@
 	<div class="container">
 		<form id="form" autocomplete="off">
 			<div class="form-group">
-				<input type="text" id="search" class="form-control" placeholder="enter document name or subject">
+				<input type="text" id="search" class="form-control" placeholder="Enter document name or subject" required="required">
 
 				<form action="/action_page.php">
 					<br>
 					<p> Please select your filetype</p>
 					<div class="row align-item-start" label class="radio-inline" justify-content>
-						<input type="radio" id="rd1" name="filetype" value="pdf">
-						<label for="pdf">Books & Manuals &nbsp;&nbsp;</label>
+						<input type="radio" id="rd1" name="filetype" value="pdf" required>
+						<label for="pdf">PDF Documents &nbsp;&nbsp;</label>
 						<input type="radio" id="rd2" name="filetype" value="ppt">
 						<label for="ppt">Presentations &nbsp;&nbsp;</label>
 						<input type="radio" id="rd3" name="filetype" value="xls">
@@ -119,52 +86,38 @@
 					<br>
 			</div>
 			<div class="form-group">
-				<button onclick="showAlert()" class="btb btn-danger-btn-block">Search for book title or subject</button>
+				<button class="btb btn-danger-btn-block">Search for documents</button>
 
 			</div>
 		</form>
 		<!--displaying results-->
-		<div class="row">
+		<div class="row row-cols-1">
 			<div id="result"></div>
 		</div>
 		<br>
 
 		<!--call to subscription-->
 		<div class="col-12 text-center mt-6" style="padding-top: 3rem">
-			<a href="contact.html" class="btn btn-danger btn-lg">Want to see more search results? Subscribe!</a>
+			<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
 		</div>
 		<br>
-
-		<!-- Start JBT-->
-		<div class="jumbotron py-5 mb-0">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
-						<h4>Defence | Response | Audit | Forensics</h4>
-					</div>
-					<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
-						<a href="contact.html" class="btn btn-danger btn-lg">Contact Us</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End of JBT -->
 
 		<!-- Start of Footer -->
 		<footer>
 			<div class="container">
 				<div class="row text-dark text-center py-4 justify-content-center">
 					<div class="col-sm-10 col-md-8 col-lg-6">
-						<img src="img/logo.JPG" alt="logo">
-						<p>Warning & Disclaimer:
-							FORTRESS ASIA provides these free tools for demonstration and educational purposes. Users
-							bear full responsibility for unethical behaviour. All search queries are logged. Respect
-							Copyright, Privacy & Data belonging to others. Be a Force for Good.</p>
+						<p>Warning & Dislaimer:
+							We provide these free tools for demonstration and educational purposes. Users bear
+							full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
+							Privacy & Data belonging to others.</p>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!-- End of Footer -->
+
+
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -177,7 +130,7 @@
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="liberatus.js"></script>
+		<script src="document.js"></script>
 		<!-- End of Script Source Files -->
 
 </body>

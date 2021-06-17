@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FORTRESS ASIA</title>
+    <title>Document Finder</title>
     <link rel="shortcut icon" href="img/logo.JPG">
     <!-- Preloaded Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,14 +18,34 @@
 
 <body>
     <!-- Top Bar & Contact Link -->
-    <div class="top-bar">
-        <div class="container">
-            <div class="col-12 text-right">
-                <p><a href="home.html">Back to Home Page</a></p>
-            </div>
-        </div>
-    </div>
-    <!-- End of Top Bar -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="col-12 text-right">
+				<p><a href="contact.html">Document Finder</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- End of Top Bar -->
+	<!-- Nav Bar Styling -->
+	<nav class="navbar bg-light navbar-light navbar-expand-lg">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="img/logo.jpg"
+				alt="logo" title="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+					<li class="nav-item"><a href="book.html" class="nav-link">Book Search</a></li>
+					<li class="nav-item"><a href="document.html" class="nav-link">Document Search</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End of Navigation -->
 
 
     <!-- Start Two Column Section -->
@@ -35,16 +55,14 @@
         <div class="row py-5">
 
             <div class="col-lg-5 mb-4">
-                <h4 class="font-weight-bold mb-3">Subscribe to access powerful OSINT tools</h4>
-                <p class="mb-2">Membership via a carefully curated process only</p>
-                <p><a href="tel:+6594556886">+65 94556886</a></p>
+                <h4 class="font-weight-bold mb-3">Send us a message!</h4>
 
                 <p>340-B King George's Ave King George's Building, Singapore 208574</p>
-                <p>BE A FORCE FOR GOOD</p>
+                <p>Acquire new knowledge!</p>
             </div>
 
             <div class="col-lg-7">
-                <h4 class=" text-left pb-3">Register Your Interest Here</h4>
+                <h4 class=" text-left pb-3">Enter Your Message Here</h4>
                 <!-- Start Contact Form -->
                 <!-- <form id="contact-form" method="post" action="contact/contact.php"> -->
 
@@ -64,7 +82,7 @@
 
                     <div class="form-group">
                         <textarea id="form_message" name="message" class="form-control"
-                            placeholder="Profession & Reasons for Joining" rows="4" required="required"></textarea>
+                            placeholder="What's your message?" rows="4" required="required"></textarea>
                     </div>
 
 
@@ -80,33 +98,20 @@
         </div> <!-- End Row -->
 
     </div> <!-- End Container -->
-    <!-- Start JBT-->
-    <div class="jumbotron py-5 mb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mt-6" style="padding-top: 3rem">
-                    <h4>Defence | Response | Audit | Forensics</h4>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End of JBT -->
     <!-- Start of Footer -->
-    <footer>
-        <div class="container">
-            <div class="row text-dark text-center py-4 justify-content-center">
-                <div class="col-sm-10 col-md-8 col-lg-6">
-                    <img src="img/logo.JPG" alt="logo">
-                    <p>Warning & Disclaimer:
-                        FORTRESS ASIA provides these free tools for demonstration and educational purposes. Users bear
-                        full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
-                        Privacy & Data belonging to others. Be a Force for Good.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End of Footer -->
+	<footer>
+		<div class="container">
+			<div class="row text-dark text-center py-4 justify-content-center">
+				<div class="col-sm-10 col-md-8 col-lg-6">
+					<p>Warning & Dislaimer:
+						We provide these free tools for demonstration and educational purposes. Users bear
+						full responsibility for unethical behaviour. All search queries are logged. Respect Copyright,
+						Privacy & Data belonging to others. Be a Force for Good.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer -->
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
