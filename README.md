@@ -1,54 +1,73 @@
 # **Website for**
 
-# **Fortress Asia OSINT Tools**
+# **BOOK FINDER**
 
 **Milestone Project 2 Interactive Front-End Development**
 
-By Kevin Ho | traderkev54@yahoo.
+By Kevin Ho | traderkev54@yahoo.com
+
+![](RackMultipart20210617-4-1cscre7_html_3800adccd24734d0.jpg)
 
 ![image](img/markdownpics/m1.jpg)
 
 **Context**
 
-This project involves writing custom HTML5, CSS3 &amp; JavaScript code with the google search API create an interactive frontend website for a Cybersecurity Consulting company called FORTRESS ASIA
+This project involves writing custom HTML5, CSS3 &amp; JavaScript code with the google search API create an interactive frontend website for a document and book finding tool called BOOK FINDER.
 
-- Encourage interactivity by offering free open-sourced intelligence (OSINT) search tools that visitors can use.
-- These tools are used by cybersecurity penetration testers to reconnoiter clients front end websites and networks, but can be used for harmless applications like searching for manuals and openly-available books and presentations.
+- Encourage interactivity by offering free document and book search tools that visitors can use.
+- These tools are used for searching for manuals and openly-available books and presentations.
 - Caution will be given to visitors to respect copyright issues and respect privacy
-- To showcase the &quot;tip-of-the-iceberg&quot; skillsets of FORTRESS ASIA, such that visitors may register for the paid services that gains them access to much more powerful search engines.
+- 2 tools are offered here:
 
-External user&#39;s goal: To have free search tools to find openly-sourced documents; to also understand the importance of cybersecurity.
+  - **Document Search** - is a google search tool using the SERPSTACK API and configured to search for PDF, Powerpoint, Excel, or WORD files. Results are shown sequentially and users can click individual results to download these files.
 
-Site owner&#39;s goal: To showcase cybersecurity search tools, and to encourage signups for its more advanced services or consulting sessions.
+  - **Book Search** – is actually 2 search tools using the 1) ISBNsearch.org search bar to locate ISBN numbers of book titles, and the 2) google book search database. Results are clickable and entire books may be read.
+
+External user&#39;s goal: To have free search tools to find openly-sourced documents and free books.
+
+Site owner&#39;s goal: To showcase search tools, and to encourage people to use the tools to find free open-copyright books online.
 
 **Demo Version of the Website**
 
-The website can be found in the github repository: [https://baguamaster.github.io/kevfinal2/](https://baguamaster.github.io/kevfinal2/)
-
+**The website can be found in the github repository:** [**https://baguamaster.github.io/kevfinal2/**](https://baguamaster.github.io/kevfinal2/)
 
 ![image](img/markdownpics/m2.jpg)
 
+![](RackMultipart20210617-4-1cscre7_html_373381a2ae190bf0.gif)
+
 ![image](img/markdownpics/m3.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_810bc8335e85ebb6.gif)
 
 ![image](img/markdownpics/m4.jpg)
 
+![](RackMultipart20210617-4-1cscre7_html_ff3f6668d2937276.jpg)
+
 ![image](img/markdownpics/m5.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_1f0c10d89a26531.gif)
+
+![image](img/markdownpics/m51.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_7c2d5b9ca32db876.jpg)
+
+![image](img/markdownpics/m6.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_f037dac07b8f0546.jpg)
 
 # **Website Purpose**
 
-The purpose of this website is to bring awareness about the skillsets and tools FORTRESS ASIA as a cybersecurity consulting firm offers to its paying customers.
+The purpose of this website is to bring free open-sourced books and documents to students and researchers.
 
 **Two main classes of tools are offered free:**
 
-1. FORTRESS ASIA document search tool, called **&quot;LIBERATUS&quot;** – a play on two latin words &quot;book&quot; and &quot;freedom&quot; – denoting there is joy in finding free copyright-free or open-sourced books, manuals, presentations or documents.
+1. DOCUMENT SEARCH - is a google search tool using the SERPSTACK API and configured to search for PDF, Powerpoint, Excel, or WORD files. Results are shown sequentially and users can click individual results to download these files.
 
-1. FORTRESS ASIA cybersecurity vulnerability search tool, called **&quot;CERBERUS&quot;** – the mythical relentless 3-headed dog from Hades – which is dogged (pardon the pun) in finding vulnerabilities in webcams, routers, servers and password databases.
+1. BOOK SEARCH – is actually 2 search tools using the 1) ISBNsearch.org search bar to locate ISBN numbers of book titles, and the 2) google book search database. Results are clickable and entire books may be read.
 
-These search tools are powered by an underlying google search API from SERPSTACK. What makes these tools dangerous is that it combines innocent google search strings with specialized script to specifically find documents, unsecured webcams, vulnerable servers and the like.
+These search tools are powered by an underlying google search API from SERPSTACK
 
-As a result of the potential for abuse, search results are intentionally kept to one page only. And all visitors have to accept the User Acceptance Policy in every page, in order to recognize their liability in cases of abuse.
-
-So once persuaded by the &quot;tip-of-the-iceberg&quot; power of these 2 search tools, it is hoped that that visitor will become a registered, paying customer of FORTRESS ASIA, either for its more powerful backend tools (implied in this website but not shown), or to be a paying customer seeking cybersecurity solutions.
+Because copyright despite the fact that most of these books are in the public domain, search results are intentionally kept to one page only. And all visitors have to accept the User Acceptance Policy in every page, in order to recognize their liability in cases of abuse.
 
 # **Strategic Considerations**
 
@@ -59,26 +78,25 @@ The website is designed to attract visitors to play with the search tools via:
 1. Finding hard-to-find manuals in electronic form
 2. Locating university teaching decks on any topic
 3. Finding ebooks in PDF format
-4. To be surprised by the plethora of unsecured webcams online
-5. To learn how exposed routers and servers can easily be the first step of an attack
-6. Being shocked at how IDs and passwords can be leaked online - and where to find them
+4. Finding WORD documents relevant to the search term
+5. Locating POWERPOINT presentations specific to a search term
+6. Searching for EXCEL files concerning material on the search term
 
-External users/Target audience are largely people initially seeking to find documents online, or business owners curious about cybersecurity risks.
+External users/Target audience are largely students or book lovers seeking to find documents online.
 
 **Identifying External Users&#39; Goals**
 
-Those seeking to use a specialized search engine to find free books and documents. To have the search tool present useful and relevant search results given self-imposed the 1-page limit. (For those who want more will have to sign up)
-
-Those seeking to understand how exposed outward-facing internet-of-things (IoT) platforms are. Unsecured webcams, routers, servers lead easily to a would-be hacker extracting useful information such as time and place information, IDs, passwords, server details etc. Visitors to this site will be able to experience all of the above with the right search terms. (instructions on use will be on each of the 2 search tool pages.
+Those seeking to use a specialized search engine to find free e-books and documents. To have the search tool present useful and relevant search results given self-imposed the 1-page limit.
 
 **Identifying Site Owner&#39;s Goals**
 
-The site owner, FORTRESS ASIA, wants to use the website to:
+The site owner, BOOK FINDER, wants to use the website to:
 
-1. Promote awareness its powerful backend cybersecurity backend tools (implied but not shown)
-2. Raise the profile FORTRES ASIA and its capabilities
-3. Encourage visitors to go for a free trial
-4. Make them understand that the cybersecurity tools can be used for bad and for good
+1. Allow students to access free-books and documents on the web
+2. Search for ISBN book identification numbers given titles of authors
+3. Use the ISBN for searching for whole e-books
+
+An ISBN is an International Standard Book Number. ISBNs were 10 digits in length up to the end of December 2006, but since 1 January 2007 they now always consist of 13 digits. ISBNs are calculated using a specific mathematical formula and include a check digit to validate the number.
 
 # **Scope**
 
@@ -140,88 +158,48 @@ The site owner, FORTRESS ASIA, wants to use the website to:
 
 Information required on the website to fulfil the content requirements.
 
-1. Explanation of what FORTRESS ASIA is
-2. Services that FORTRESS ASIA specializes in
-3. The &quot;LIBERATUS&quot; search tool for finding open-sourced documents, manuals, presentations &amp; files
-4. The &quot;CERBERUS&quot; search tool for finding vulnerable webcams, servers, routers and password information
-5. Imagery appropriate to these tools
-6. Ample warning against abuse of the tools and responsibility of the visitor to exercise legal behaviour
-7. Contact details / sign up page
-8. To at all times expound the FORTRESS ASIA Value proposition
-
-**Key Classes of Images required**
-
-1. Cybersecurity-centric images
-2. Book/academic-centric images
-3. Vulnerability assessment-centric images
-4. FORTRESS ASIA-related corporate photos &amp; logos
-5. Services-related images
+1. Explanation of what BOOK FINDER is
+2. Allow users to interact with DOCUMENT SEARCH page
+3. Allow users to interact with BOOK SEARCH page
+4. Easy to use search bars
+5. Ample warning against abuse of the tools and responsibility of the visitor to exercise legal behaviour
 
 **Content Structure (Sitemap)**
 
 The website will be arranged in a simple order:
 
-Login Page\&gt; Home Page \&gt; About \&gt; LIBERATUS \&gt; CERBERUS \&gt; Sign Up for more Powerful Tools
+Home Page| Document Search | Book Search
 
-**Each page has its own hyperlinks relevant to it**
+**The UI/UX has been deliberately kept simple to encourage immediate interactivity with the search functions in each if the pages.**
 
-![image](img/markdownpics/m6.jpg)
+![image](img/markdownpics/m7.jpg)
 
-1. **Login Page:**
-  - **Currently on demo mode only (user id: demo; password: pw)**
-  - **Note: this website is a non-production demo-only version 0.9**
+![](RackMultipart20210617-4-1cscre7_html_60bc2bbcf1e171c0.png)
 
-1. **Home Page:**
-  - It opens with a &quot;bang&quot;, putting one single &quot;live&quot; visual embed from the FORTINET cybersecurity website – their global live cyber threat map
-    1. This gives the viewer a real-time view on global cyber attack vectors as they are detected by the FORTINET network
-    2. The box at the bottom of the embed shows specific data of attack vectors, countries involved and the type of attack payload.
-  - The nav bar at the top allows easy access to the other sections of the website.
-  - Further down the carousel is a 2 column section which draws attention to 3 things with a button:
-    1. &quot; **LIBERATUS&quot;** – This is the first of 2 search engines, allowing the visitor to download openly available files, ebooks, presentations, manuals, spreadsheets &amp; other documents.
-      1. **This is intended for academic and research purposes,** and at the same time highlights the unsecure nature of files in the internet.
-      2. **Ample warning is provided so that the user is aware of infringement risks to Copyright and to use the search tool in a responsible manner.**
-    2. &quot; **CERBERUS&quot;** – This is the 2nd search tool that has been configured to locate open webcams, vulnerable servers and exposed email lists.
-      1. **Again, this is for academic and research purposes** , and to demonstrate the widespread insecurity of net-facing machines and interfaces.
-      2. **Warnings are escalated to make it clear that any abuse of the information gathered through this search tool may be subject ot criminal proceedings**.
-      3. **Search results are limited to a single page**. For the more serious user, a registration is necessary, and memberships are curated.
-  - Every single page in the website has a jumbotron with a link to the &quot;Contact Us&quot; button. – This is the call to action.
-  - Beneath the call to action is the footer with permanent warning and disclaimer
+1. **HOME PAGE:**
+  - It opens with a simple introduction and instruction to use the search tools.
+  - Comes with a warning to respect copyright
+  - Upper nav bar has links to Book Search and Document Search
 
-1. **About:**
+1. **BOOK SEARCH:**
+  - Shows an ISBN search bar on the left of the page meant for finding ISBN numbers of titles.
+  - Results are displayed as per ISBNsearch.org&#39;s template, showing book ISBN.
+  - Once ISBN numbers uniquely identifying books are found, the user may use the google book search bar on the right to locate whole e-books to read.
+  - Results are shown in the right column where the user can click and open an e-book to read on the web browser.
+  - **NOTE: Not every book can be found in the google book database (there is a warning to this effect in read)**
 
-  - Shows the 6 main areas of subject matter expertise FORTRESS ASIA has in the cybersecurity &amp; information security space.
-  - Beneath that is a showcase of FORTRESS ASIA&#39;s closest 3 collaborators in the security, cyberdefence &amp; digital enablement space in the region.
-  - The bottom part has the call to action jumbotron
+1. **DOCUMENT SEARCH:**
+  - Shows a simple search bar with instructions on what to type
+  - The user has a choice of what type of documents searched for (pdf files, powerpoint presentations, excel data files, word documents)
+  - Results are shown as a single column with downloadable links for the files.
 
-1. **LIBERATUS:**
-  - &quot;LIBERATUS&quot; – This is the first of 2 search engines, allowing the visitor to download openly available files, ebooks, presentations, manuals, spreadsheets &amp; other documents.
-  - This is intended for academic and research purposes, and at the same time highlights the unsecure nature of files in the internet.
-  - Ample warning is provided so that the user is aware of infringement risks to Copyright and to use the search tool in a responsible manner.
-  - **The underlying technology driving this search tool is the Google Search API, provided by SERPSTACK.**
-  - **Additional scripting has been added to allow specific searches related to LIBERATUS**
-  - **Searches are done by entering key words and selecting specific radio-button file types**
-  - **Note: if there are no search results, it either means the API has overrun its daily 100-query limit, or the search has been stopped by Google AIs**
+1. **CAUTION:**
 
-1. **CERBERUS:**
-  - &quot;CERBERUS&quot; – This is the 2nd search tool that has been configured to locate open webcams, vulnerable servers and exposed email lists.
-  - The name Cerberus is derived from the mythical 3-headed dog from Hades, and is known for relentless pursuit of prey and has 360 degree awareness.
-  - Again, this is for academic and research purposes, and to demonstrate the widespread insecurity of net-facing machines and interfaces.
-  - Warnings are escalated to make it clear that any abuse of the information gathered through this search tool may be subject to criminal proceedings.
-  - Search results are limited to a single page. For the more serious user, a registration is necessary, and memberships are curated.
-  - **The underlying technology driving this search tool is the Google Search API, provided by SERPSTACK.**
-  - **Additional scripting has been added to allow specific searches related to CERBERUS, all of which CAN BE abused within the cybersecurity context.**
-  - **Searches are done by entering key words and selecting specific radio-button file types**
-  - **Note: if there are no search results, it either means the API has overrun its daily 100-query limit, or the search has been stopped by Google AIs – this is particularly true given the high-risk search script in this search tool.**
-  - **Google may sometimes require users to do a CAPTCHA if it senses too many search requests of this nature from a single IP**
-  -
+**Note: if there are no search results, it either means the API has overrun its daily 100-query limit, or the search has been stopped by Google AIs – this is particularly true given the high-risk search script in this search tool.**
 
-1. **Subscribe to powerful tools:**
+**Google may sometimes require users to do a CAPTCHA if it senses too many search requests of this nature from a single IP.**
 
-  - Is the de facto &quot;contact&quot; page
-  - Interested parties may register to join as a subscriber
-  - Subscribers will have access to more vulnerability assessment tools, used in ethical cybersecurity penetration testing and research
-  - Reveals basic contact details of the company
-  - The form section is intended to facilitate quick logging of interest, which will be followed up with an interview process.
+**If this happens, the user should open a VPN (virtual private network) and try again.**
 
 **Website Interactivity**
 
@@ -233,9 +211,10 @@ Login Page\&gt; Home Page \&gt; About \&gt; LIBERATUS \&gt; CERBERUS \&gt; Sign 
     4. Easy to identify buttons
 2. Reader Comprehension
   1. Content are grouped according to subject matter and prose is broken up when long.
-  2. The Flesch Readability Test = 54.7, Flesch-Kincaid Grade Level Score = 7, which means the website is easily understood by 13-14 year olds and up.
-  
-![image](img/markdownpics/m7.jpg)
+
+![image](img/markdownpics/m79.jpg)
+
+  1. ![](RackMultipart20210617-4-1cscre7_html_36449be4ea6628ea.png)The Flesch Readability Test = 54.7, Flesch-Kincaid Grade Level Score = 7, which means the website is easily understood by 13-14 year olds and up.
 
 1. Operability
   1. The visitor should be able to easily navigate without trouble.
@@ -253,18 +232,7 @@ Login Page\&gt; Home Page \&gt; About \&gt; LIBERATUS \&gt; CERBERUS \&gt; Sign 
 
 # **Page Structure and Interactions**
 
-**Interface Design**
-
-- Each page will include 4 parts - header, main, jumbotron call to action and footer.
-- Header, Call to action and footer include sections that will be repeated all the pages to improve predictability and consistency.
-- Header will include a logo and the main navbars
-- The jumbotron containing the call to action button will link to the &quot;Contact Us&quot; page
-- Footer will include a links to social media
-- The main content section will display content related to the relevant subject matter
-
 **Site Map**
-
-![image](img/markdownpics/m6.jpg)
 
 **Navigation Elements**
 
@@ -281,10 +249,6 @@ Main Navigation is a fixed position menu at the top of every web page. The navba
 **Collapsible Hamburger Mobile Menu**
 
 The top navigation will be minimised into a hamburger menu when displayed in mobile screens or other small screens. Clicking on it will display the familiar 4 choices. [Bootstrap Component - Navbar]
-
-**Call-to-action Jumbotron**
-
-This section features on every page and has a button offering a free trial, which is hyperlinked to the Contact Us page.
 
 **Footer**
 
@@ -304,8 +268,6 @@ Monserrat font is used throughout for the website as it is clean, not too common
 
 **Images**
 
-![image](img/markdownpics/m10.jpg)
-
 Images are chosen for their powerful storytelling ability and whilst some real pictures are used, some stock images were utilized in this demo version. No doubt in the production version, some professional images will need to be shot again.
 
 **Copy**
@@ -315,6 +277,10 @@ Copy is written in an easy-going style, and aims to educate the reader on the ma
 **Responsiveness**
 
 The site is meant to be responsive to many devices, from desktop and laptop screen to tablets and smart mobile phones. It can be viewed in both portrait and landscape orientation. The breakpoints are usually half of the visual range in this instance.
+
+![image](img/markdownpics/m8.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_bbd1aa9d964c49f.png)
 
 **Consistency of design and messaging**
 
@@ -338,7 +304,13 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 **Jshint Linter**
 
-![image](img/markdownpics/m11.jpg)
+![image](img/markdownpics/m9.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_16b6dfbe63be08cf.jpg)
+
+![image](img/markdownpics/m10.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_ea3f86efe913e548.jpg)
 
 - JS scripts have cleared Jshint Linter
 - What remains are largely esversion:6 syntax issues.
@@ -347,13 +319,17 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 **JS functions used are found in the following areas:**
 
-- Initial Login page, where an ID and password are required
-  - On an incorrect entry, a pop up message will emerge
-- The &quot;LIBERATUS&quot; search tool:
-  - where radio buttons are used along an active search bar input
-  - Additional search tags are appended to the original user-defined input to aid in specific searches for documents etc
-- The &quot;CERBERUS&quot; vulnerability assessment search tool:
-  - where radio buttons are used along an active search bar input
+Book Search
+
+![image](img/markdownpics/m12.jpg)
+
+![](RackMultipart20210617-4-1cscre7_html_3dd5727400d86c18.png)
+
+![image](img/markdownpics/m13.jpg)
+
+Document Search
+
+![](RackMultipart20210617-4-1cscre7_html_ec6f5ff2e0ae2248.png)
 
 **Organisation of JS Script**
 
@@ -367,7 +343,7 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 # **API**
 
-![image](img/markdownpics/m12.jpg)
+![](RackMultipart20210617-4-1cscre7_html_e60f641323d0d12f.png)
 
 - The search tools are powered by Google Search APIs, and provided free for up to 100 searches a day by SERPSTACK
 - Additional search tags needed to be added to specific searches (determined by user and his/her choice of search types)
@@ -401,65 +377,20 @@ Post deployment test procedures:
 - Differences are reconciled by a detailed line-by-line debugging
 - Better methods are deployed if the code is proven to be more efficient
 
-**Sample of Detailed Testing Steps**
-
-![image](img/markdownpics/m13.jpg)
-
-**In this case, testing is done to check the functionality of the CERBERUS Vulnerability Assessment Search Tool.**
-
-This tool is configured to detect the following:
-
-- **open-ended/unsecured webcams:**
-  - To detect IP addresses and to access openly webcam / cctv feeds. BUT NOT to interfere nor attempt sign-in privileges (that would be a criminal breach)
-  - Specific search tags relating to country or even IP address may be attempted to pinpoint weak cameras in a specific geographic areas etc.
-- **Unsecured Servers:**
-  - Servers carry sensitive data that may be accidentally exposed to the public in cases where they are insufficiently secured or patched.
-  - The purpose of this mode of search is to demonstrate the ease in which anyone may find FTP, HTTP etc related databases, which may inadvertently contain private or confidential information
-- **Exposed Email Lists:**
-  - This represents a perennial issue, in that these types of data are inherently &#39;leaky&#39; and sometimes do not come under any security cover
-  - An would-be attacker would troll email lists to find usernames, passwords and other valuable information as part of his/her &quot;spear-phishing&quot; social engineering attack, to get unsuspecting victims to open emails or files with malicious payload.
-
-**Form Check**
-
-![image](img/markdownpics/m19.jpg)
-
-- In this instance, a specific webcam brand and model is searched for, to find unsecured live feeds.
-- This example above shows a successful search, revealing seemingly &quot;secured&quot; http addresses that can be intercepted
-
-![image](img/markdownpics/m14.jpg)
-
-- Clicking on the top most search result opens a webcam 7 admin application
-- The black &amp; white image is taken off a &#39;live&#39; video feed of one such camera, in Europe.
-- No further action to penetrate the webcam application, although it should be noted that for unsecured cameras like this, the admin passwords are likely to be kept default.
-- Which in this case, a would-be hacker would be able to access the camera with admin rights and control it for whatever nefarious purposes.
-- NOTE: ANY ATTEMPT TO GO BEYOND THIS IS TENTAMOUNT TO A HACK AND CARRIES WITH IT CRIMINAL IMPLICATIONS
-
-**TEST 2 – Finding ROOT access information using CERBERUS**
-
-![image](img/markdownpics/m15.jpg)
-
-- Successful reconnoiter of the Walt Disney Company, showing excel spreadsheets of email lists, sales data etc.
-
 **Validating Markup**
 
 - 3 pages checked using W3C Jigsaw CSS Validator (https://jigsaw.w3.org/css-validator/)
-  - home.html – 2 errors detected in bootstrap.css.min (told to ignore them by instructor)
-  - cerberus.html – Same 2 errors
-  - about.html – Same 2 errors
-  
-  ![image](img/markdownpics/m15.jpg)
-
+  - NO errors
+- ![](RackMultipart20210617-4-1cscre7_html_517bc0ae5a391cd7.jpg) ![](RackMultipart20210617-4-1cscre7_html_567ad12cd787d1af.jpg)
 - 3 pages validated using W3 Markup Validation Service ([http://validator.w3.org/](http://validator.w3.org/))
   - home.html - Document checking completed. No errors or warnings to show.
   - contact.html - Document checking completed. No errors or warnings to show.
   - about.html - Document checking completed. No errors or warnings to show.
 
 - 3 pages checked using W3C Link Checker ([https://validator.w3.org/checklink](https://validator.w3.org/checklink))
-  - index.html – none
-  - liberatus.html – none
-  - contact.html – none
-  
-![image](img/markdownpics/m16.jpg)
+  - home.html – none
+  - book.html – none
+  - document.html – none
 
 **Navigation Check**
 
@@ -482,20 +413,6 @@ This tool is configured to detect the following:
 **Deployment**
 
 - The code is updated as a github repository and committed to on a regular basis
-- Currently there have been about 60 commits in the development phase
-- Deployment to the web is made via the github &quot;deploy&quot; function
-
-![image](img/markdownpics/m17.jpg)
-
-**Quality Assurance**
-
-- The code is scraped to clean itself of commented out code and does not have broken links
-- Version control is done through Github and currently numbers around 60 past commits
-- There has been 678 additions
-- 594 deletions
-- Over the 32 files
-
-![image](img/markdownpics/m18.jpg)
 
 # **Technologies Applied**
 
