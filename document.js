@@ -31,8 +31,8 @@ $("#form").submit(function (e) {
 
     else if (rd4.checked == true)
         var url = 'https://api.serpstack.com/search?access_key=' + API_KEY + `&query=${query}` + `+filetype%3Adoc`;
-        
-    
+
+
 
     console.log(url);
 
