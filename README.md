@@ -172,7 +172,7 @@ Home Page| Document Search | Book Search
 
 **The UI/UX has been deliberately kept simple to encourage immediate interactivity with the search functions in each if the pages.**
 
-![image](img/markdownpics/m7.jpg)
+![image](img/markdownpics/m7.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_60bc2bbcf1e171c0.png)
 
@@ -278,7 +278,7 @@ Copy is written in an easy-going style, and aims to educate the reader on the ma
 
 The site is meant to be responsive to many devices, from desktop and laptop screen to tablets and smart mobile phones. It can be viewed in both portrait and landscape orientation. The breakpoints are usually half of the visual range in this instance.
 
-![image](img/markdownpics/m8.jpg)
+![image](img/markdownpics/m8.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_bbd1aa9d964c49f.png)
 
@@ -304,11 +304,11 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 **Jshint Linter**
 
-![image](img/markdownpics/m9.jpg)
+![image](img/markdownpics/m9.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_16b6dfbe63be08cf.jpg)
 
-![image](img/markdownpics/m10.jpg)
+![image](img/markdownpics/m10.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_ea3f86efe913e548.jpg)
 
@@ -321,11 +321,11 @@ The contact form in the Contact Us page is meant to facilitate either email, voi
 
 Book Search
 
-![image](img/markdownpics/m12.jpg)
+![image](img/markdownpics/m12.JPG)
 
 ![](RackMultipart20210617-4-1cscre7_html_3dd5727400d86c18.png)
 
-![image](img/markdownpics/m13.jpg)
+![image](img/markdownpics/m13.JPG)
 
 Document Search
 
